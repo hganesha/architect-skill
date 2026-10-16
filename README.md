@@ -17,6 +17,42 @@ Runtime dependencies: jsonschema, IfcOpenShell and ezdxf. Development dependenci
 add pytest, PyYAML and Ruff. Blender 4.5 LTS or later is needed only for PNG/.blend
 rendering. Supply its executable with `--blender` if it is not on PATH.
 
+## Browse the examples
+
+Open [the example studio](examples/showcase/index.html) in a browser. The bundled
+HTML explorer includes four studies, six Blender renders, an embedded interactive
+3D viewer, per-level plans and drawing sets, validation warnings, and downloads
+for GLB, IFC, DXF, schedules, model JSON and design briefs. Three courtyard layout
+alternatives can also be compared visually.
+
+The complete portable bundle is in `examples/showcase/` (about 20 MB), including
+its relative `assets/` directory. It has no CDN, account, API or build dependency.
+Share or host that entire directory rather than just its `index.html`. The example
+outputs are included outside the ignored `out/` directory.
+
+For a local HTTP preview, including browsers that disallow local-file URLs:
+
+```sh
+python3 -m http.server 8764 --bind 127.0.0.1 --directory examples/showcase
+```
+
+Then open `http://127.0.0.1:8764/`. Stop the server with Ctrl+C.
+
+To refresh the bundle from generated outputs, run:
+
+```sh
+.venv/bin/python tools/build_showcase.py --source out --out examples/showcase
+```
+
+The builder reads `out/courtyard/selected`, `out/courtyard/modified`,
+`out/villa/selected`, `out/commercial/selected`, and the three alternatives under
+`out/courtyard/alternatives/alternative-1` through `alternative-3`. It verifies
+snapshot provenance and asset hashes before updating the bundle. Render PNGs are
+included when present; unexecuted Blender scripts are not presented as renders.
+Edit `renderers/showcase/index_template.html` to change the container design;
+`index.html` and `bundle.json` are generated. Large editable `.blend` scenes and
+renderer logs are kept out of the portable bundle.
+
 ## Use
 
 ```sh

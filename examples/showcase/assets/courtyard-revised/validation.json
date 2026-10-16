@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "fail": [],
+  "warn": [
+    "kitchen: area 20.6 m² vs target 16.0 m² (29% deviation)",
+    "living: area 61.8 m² vs target 48.0 m² (29% deviation)",
+    "foyer: area 14.1 m² vs target 10.0 m² (41% deviation)",
+    "dining ↔ living: preferred adjacency not realized",
+    "foyer: no exterior/courtyard glazing or skylight (daylight proxy)",
+    "furniture-kitchen-counter: conflicts with door swing D-7c0d4670edd9"
+  ],
+  "ok": [
+    "20 spaces, 57 walls, 54 openings"
+  ],
+  "metrics": {
+    "enclosed_area_m2": 245.7,
+    "circulation_area_m2": 25.76,
+    "footprint_m2": 285.7,
+    "adjacency_realized": 3,
+    "adjacency_requested": 4,
+    "daylit_rooms": 8,
+    "habitable_rooms": 9,
+    "area_deviation_mean": 0.1724,
+    "reachable_spaces": 20
+  },
+  "constraints": [
+    {
+      "type": "daylight",
+      "spaces": [],
+      "target": "living",
+      "required": false,
+      "met": true
+    },
+    {
+      "type": "adjacency",
+      "spaces": [
+        "living",
+        "courtyard"
+      ],
+      "target": null,
+      "required": true,
+      "met": true
+    }
+  ],
+  "disclaimer": "Concept design only — requires licensed professional review. Not for construction."
+}

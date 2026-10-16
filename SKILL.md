@@ -9,6 +9,14 @@ The resolved `model.json` is the source of truth. Drawings, meshes and renders
 compile from its coordinates and relationships. Never use image generation to
 invent dimensioned linework or claim an edit changed geometry without checking it.
 
+## Included examples
+
+Users can inspect actual outputs in [the example studio](examples/showcase/index.html):
+four studies, renders, drawings, embedded 3D, validation warnings, and model/CAD
+file downloads. Share the entire `examples/showcase/` directory so relative assets
+remain available. Refresh it with `tools/build_showcase.py` after regenerating the
+example snapshots; see [README](README.md#browse-the-examples).
+
 ## Runtime and paths
 
 Resolve this skill's root from the location of this file, **not the user's current

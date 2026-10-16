@@ -1,0 +1,191 @@
+{
+  "building": {
+    "name": "Courtyard Residence",
+    "style": "japanese-minimal × south-indian-courtyard",
+    "units": "meters",
+    "input_units": "meters"
+  },
+  "site": {
+    "width": 21.3,
+    "depth": 33.5,
+    "entrance": "east",
+    "hemisphere": "north",
+    "setbacks": {
+      "east": 2.0,
+      "west": 2.0,
+      "north": 2.5,
+      "south": 2.5
+    }
+  },
+  "levels": [
+    {
+      "id": "ground",
+      "elevation": 0.0,
+      "height": 3.6
+    }
+  ],
+  "spaces": [
+    {
+      "id": "courtyard",
+      "name": "Internal Courtyard",
+      "type": "courtyard",
+      "zone": "outdoor",
+      "target_area": 39.9999992715,
+      "open_to_sky": true,
+      "level": "ground",
+      "aspect_ratio": 1.437499857821091
+    },
+    {
+      "id": "living",
+      "name": "Living Room",
+      "type": "room",
+      "zone": "public",
+      "target_area": 48.0,
+      "double_height": false,
+      "adjacent_to": [
+        "courtyard",
+        "dining"
+      ],
+      "materials": {
+        "floor": "limestone",
+        "wall": "wood_slat"
+      },
+      "open_plan_group": "day-spaces",
+      "level": "ground",
+      "ceiling_height": 4.87
+    },
+    {
+      "id": "dining",
+      "name": "Dining",
+      "type": "room",
+      "zone": "public",
+      "target_area": 24.0,
+      "adjacent_to": [
+        "living",
+        "kitchen"
+      ],
+      "open_plan_group": "day-spaces",
+      "level": "ground",
+      "skylight": true
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "type": "kitchen",
+      "zone": "service",
+      "target_area": 16.0,
+      "adjacent_to": [
+        "dining"
+      ],
+      "materials": {
+        "floor": "quartz"
+      },
+      "open_plan_group": "day-spaces",
+      "level": "ground"
+    },
+    {
+      "id": "foyer",
+      "name": "Foyer",
+      "type": "room",
+      "zone": "public",
+      "target_area": 10.0,
+      "adjacent_to": [
+        "living"
+      ],
+      "level": "ground"
+    },
+    {
+      "id": "bedroom-1",
+      "name": "Bedroom 1",
+      "type": "room",
+      "zone": "private",
+      "target_area": 20.0,
+      "requires_exterior_wall": true,
+      "level": "ground"
+    },
+    {
+      "id": "bedroom-2",
+      "name": "Bedroom 2",
+      "type": "room",
+      "zone": "private",
+      "target_area": 18.0,
+      "requires_exterior_wall": true,
+      "level": "ground"
+    },
+    {
+      "id": "bedroom-3",
+      "name": "Bedroom 3",
+      "type": "room",
+      "zone": "private",
+      "target_area": 18.0,
+      "requires_exterior_wall": true,
+      "level": "ground"
+    },
+    {
+      "id": "bath-1",
+      "name": "Bath 1",
+      "type": "bath",
+      "zone": "service",
+      "target_area": 8.0,
+      "materials": {
+        "floor": "marble",
+        "wall": "quartz"
+      },
+      "level": "ground"
+    },
+    {
+      "id": "bath-2",
+      "name": "Bath 2",
+      "type": "bath",
+      "zone": "service",
+      "target_area": 7.0,
+      "materials": {
+        "floor": "marble",
+        "wall": "quartz"
+      },
+      "level": "ground"
+    },
+    {
+      "id": "study",
+      "name": "Study",
+      "type": "room",
+      "zone": "private",
+      "target_area": 12.0,
+      "level": "ground"
+    },
+    {
+      "id": "utility",
+      "name": "Utility",
+      "type": "room",
+      "zone": "service",
+      "target_area": 8.0,
+      "level": "ground"
+    }
+  ],
+  "constraints": [
+    {
+      "type": "daylight",
+      "target": "living",
+      "priority": "high"
+    },
+    {
+      "type": "adjacency",
+      "spaces": [
+        "living",
+        "courtyard"
+      ],
+      "required": true
+    }
+  ],
+  "materials": {
+    "exterior": "natural_stone",
+    "interior": "lime_plaster",
+    "flooring": "limestone",
+    "roof": "standing_seam_metal"
+  },
+  "planning": {
+    "circulation_width": 1.1,
+    "furnish": true,
+    "landscape": true
+  }
+}

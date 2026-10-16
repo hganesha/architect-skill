@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" font-family="Arial,sans-serif">
+<rect width="1200" height="900" fill="#faf8f3"/>
+<text x="28" y="34" font-size="19" fill="#1a2332" font-weight="bold">Neighbourhood Retail + Studio — Floor plan · ground</text>
+<text x="28" y="55" font-size="11" fill="#596371">Variant 1: Central court, entrance-led public band · elevation 0.00 m</text>
+<rect x="110.000" y="543.767" width="472.000" height="176.233" fill="#f0e1c9" stroke="none" stroke-width="1"/>
+<text x="955" y="100" font-size="9" fill="#1a2332">1. Retail · 89.6 m²</text>
+<rect x="110.000" y="510.247" width="472.000" height="33.520" fill="#f5edde" stroke="none" stroke-width="1"/>
+<text x="955" y="119" font-size="9" fill="#1a2332">2. Gallery · Retail · 17.0 m²</text>
+<rect x="110.000" y="130.000" width="223.579" height="209.753" fill="#f0e1c9" stroke="none" stroke-width="1"/>
+<text x="955" y="138" font-size="9" fill="#1a2332">3. Café · 50.5 m²</text>
+<rect x="333.579" y="130.000" width="49.684" height="176.233" fill="#e3ddef" stroke="none" stroke-width="1"/>
+<text x="955" y="157" font-size="9" fill="#1a2332">4. WC Core · 9.4 m²</text>
+<rect x="333.579" y="306.233" width="49.684" height="33.520" fill="#f5edde" stroke="none" stroke-width="1"/>
+<text x="955" y="176" font-size="9" fill="#1a2332">5. Gallery · WC Core · 1.8 m²</text>
+<rect x="383.263" y="130.000" width="198.737" height="176.233" fill="#dce6d6" stroke="none" stroke-width="1"/>
+<text x="955" y="195" font-size="9" fill="#1a2332">6. Studio · 37.7 m²</text>
+<rect x="383.263" y="306.233" width="198.737" height="33.520" fill="#f5edde" stroke="none" stroke-width="1"/>
+<text x="955" y="214" font-size="9" fill="#1a2332">7. Gallery · Studio · 7.2 m²</text>
+<rect x="110.000" y="339.753" width="104.446" height="170.495" fill="#e3ddef" stroke="none" stroke-width="1"/>
+<text x="955" y="233" font-size="9" fill="#1a2332">8. Storage · 19.2 m²</text>
+<rect x="214.446" y="339.753" width="33.520" height="170.495" fill="#f5edde" stroke="none" stroke-width="1"/>
+<text x="955" y="252" font-size="9" fill="#1a2332">9. Gallery · Storage · 6.2 m²</text>
+<rect x="477.554" y="339.753" width="104.446" height="170.495" fill="#e3ddef" stroke="none" stroke-width="1"/>
+<text x="955" y="271" font-size="9" fill="#1a2332">10. Prep Kitchen · 19.2 m²</text>
+<rect x="444.035" y="339.753" width="33.520" height="170.495" fill="#f5edde" stroke="none" stroke-width="1"/>
+<text x="955" y="290" font-size="9" fill="#1a2332">11. Gallery · Prep Kitchen · 6.2 m²</text>
+<rect x="247.965" y="339.753" width="196.069" height="170.495" fill="#cbded2" stroke="none" stroke-width="1"/>
+<text x="955" y="309" font-size="9" fill="#1a2332">12. Shared Court · 36.0 m²</text>
+<rect x="110.000" y="715.429" width="60.383" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="206.950" y="715.429" width="42.100" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="285.617" y="715.429" width="43.623" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="362.760" y="715.429" width="43.623" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="442.950" y="715.429" width="42.100" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="521.617" y="715.429" width="60.383" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="110.000" y="541.482" width="222.287" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="359.713" y="541.482" width="222.287" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="110.000" y="507.962" width="38.510" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="175.935" y="507.962" width="38.510" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="214.446" y="507.962" width="1.828" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="246.137" y="507.962" width="1.828" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="247.965" y="507.200" width="84.322" height="6.095" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="359.713" y="507.200" width="84.322" height="6.095" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="444.034" y="507.962" width="1.828" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="475.726" y="507.962" width="1.828" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="477.554" y="507.962" width="38.510" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="543.490" y="507.962" width="38.510" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="110.000" y="337.467" width="38.510" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="175.935" y="337.467" width="38.510" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="214.446" y="337.467" width="3.047" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="244.918" y="337.467" width="3.047" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="247.965" y="336.705" width="29.094" height="6.095" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="304.485" y="336.705" width="29.094" height="6.095" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="333.579" y="336.705" width="11.129" height="6.095" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="372.134" y="336.705" width="11.129" height="6.095" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="383.263" y="336.705" width="16.673" height="6.095" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="427.361" y="336.705" width="16.673" height="6.095" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="444.034" y="337.467" width="1.828" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="475.726" y="337.467" width="1.828" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="477.554" y="337.467" width="38.510" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="543.490" y="337.467" width="38.510" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="333.579" y="303.947" width="11.129" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="372.134" y="303.947" width="11.129" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="383.263" y="303.947" width="85.656" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="496.344" y="303.947" width="85.656" height="4.571" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="110.000" y="125.429" width="56.243" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="202.810" y="125.429" width="37.959" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="277.336" y="125.429" width="56.243" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="333.579" y="125.429" width="49.684" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="383.263" y="125.429" width="47.962" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="467.792" y="125.429" width="29.679" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="534.038" y="125.429" width="47.962" height="9.142" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="105.429" y="650.167" width="9.142" height="69.833" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="105.429" y="543.767" width="9.142" height="69.833" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="105.429" y="510.247" width="9.142" height="33.520" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="105.429" y="443.284" width="9.142" height="66.964" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="105.429" y="339.753" width="9.142" height="66.964" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="105.429" y="288.119" width="9.142" height="51.634" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="105.429" y="218.201" width="9.142" height="33.350" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="105.429" y="130.000" width="9.142" height="51.634" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="212.160" y="438.713" width="4.571" height="71.535" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="212.160" y="339.753" width="4.571" height="71.535" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="244.918" y="438.713" width="6.095" height="71.535" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="244.918" y="339.753" width="6.095" height="71.535" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="331.294" y="336.705" width="4.571" height="3.047" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="331.294" y="306.233" width="4.571" height="3.047" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="331.294" y="231.829" width="4.571" height="74.404" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="331.294" y="130.000" width="4.571" height="74.404" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="380.978" y="337.924" width="4.571" height="1.828" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="380.978" y="306.233" width="4.571" height="1.828" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="380.978" y="231.829" width="4.571" height="74.404" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="380.978" y="130.000" width="4.571" height="74.404" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="440.987" y="438.713" width="6.095" height="71.535" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="440.987" y="339.753" width="6.095" height="71.535" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="475.269" y="438.713" width="4.571" height="71.535" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="475.269" y="339.753" width="4.571" height="71.535" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="577.429" y="650.167" width="9.142" height="69.833" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="577.429" y="543.767" width="9.142" height="69.833" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="577.429" y="510.247" width="9.142" height="33.520" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="577.429" y="443.284" width="9.142" height="66.964" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="577.429" y="339.753" width="9.142" height="66.964" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="577.429" y="306.233" width="9.142" height="33.520" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="577.429" y="236.400" width="9.142" height="69.833" fill="#1a2332" stroke="none" stroke-width="1"/>
+<rect x="577.429" y="130.000" width="9.142" height="69.833" fill="#1a2332" stroke="none" stroke-width="1"/>
+<path d="M 329.2400954792736 720.0 L 329.2400954792736 686.4801970530566 M 362.75989842621686 720.0 A 33.51980294694332 33.51980294694332 0 0 0 329.2400954792736 686.4801970530566" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 170.38313677076417 720.0 L 206.950194531066 720.0" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 249.04980242167926 720.0 L 285.616860181981 720.0" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 406.38313372350945 720.0 L 442.95019148381124 720.0" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 485.0497993744245 720.0 L 521.6168571347263 720.0" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 332.287350292632 543.7671982025947 L 332.287350292632 571.1924915228211 M 359.7126436128584 543.7671982025947 A 27.425293320226356 27.425293320226356 0 0 1 332.287350292632 571.1924915228211" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 148.51020073713613 510.24739525565144 L 148.51020073713613 482.8221019354251 M 175.93549405736246 510.24739525565144 A 27.425293320226356 27.425293320226356 0 0 0 148.51020073713613 482.8221019354251" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 332.287350292632 510.24739525565144 L 332.287350292632 537.6726885758778 M 359.7126436128584 510.24739525565144 A 27.425293320226356 27.425293320226356 0 0 1 332.287350292632 537.6726885758778" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 516.064515084402 510.24739525565144 L 516.064515084402 482.8221019354251 M 543.4898084046284 510.24739525565144 A 27.425293320226356 27.425293320226356 0 0 0 516.064515084402 482.8221019354251" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 148.51020073713613 339.7526352168966 L 148.51020073713613 367.17792853712285 M 175.93549405736246 339.7526352168966 A 27.425293320226356 27.425293320226356 0 0 1 148.51020073713613 367.17792853712285" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 217.49294960785707 339.7526352168966 L 217.49294960785707 367.17792853712285 M 244.91824292808343 339.7526352168966 A 27.425293320226356 27.425293320226356 0 0 1 217.49294960785707 367.17792853712285" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 277.0595744513819 339.7526352168966 L 277.0595744513819 367.17792853712285 M 304.48486777160815 339.7526352168966 A 27.425293320226356 27.425293320226356 0 0 1 277.0595744513819 367.17792853712285" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 344.70840276382916 339.7526352168966 L 344.70840276382916 312.3273418966703 M 372.1336960840555 339.7526352168966 A 27.425293320226356 27.425293320226356 0 0 0 344.70840276382916 312.3273418966703" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 399.93617860507936 339.7526352168966 L 399.93617860507936 312.3273418966703 M 427.3614719253057 339.7526352168966 A 27.425293320226356 27.425293320226356 0 0 0 399.93617860507936 312.3273418966703" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 516.064515084402 339.7526352168966 L 516.064515084402 367.17792853712285 M 543.4898084046284 339.7526352168966 A 27.425293320226356 27.425293320226356 0 0 1 516.064515084402 367.17792853712285" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 344.70840276382916 306.2328322699532 L 344.70840276382916 278.8075389497269 M 372.1336960840555 306.2328322699532 A 27.425293320226356 27.425293320226356 0 0 0 344.70840276382916 278.8075389497269" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 468.91892747580033 306.2328322699532 L 468.91892747580033 278.8075389497269 M 496.34422079602666 306.2328322699532 A 27.425293320226356 27.425293320226356 0 0 0 468.91892747580033 278.8075389497269" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 166.2427859470318 130.00003047254802 L 202.8098437073336 130.00003047254802" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 240.7691007742145 130.00003047254802 L 277.3361585345163 130.00003047254802" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 346.993843873848 130.00003047254802 L 369.8482549740366 130.00003047254802" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 431.22523866590365 130.00003047254802 L 467.7922964262054 130.00003047254802" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 497.4708518456216 130.00003047254802 L 534.0379096059235 130.00003047254802" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 110.0 650.1671279814483 L 110.0 613.6000702211464" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 110.0 443.2835441164249 L 110.0 406.71648635612314" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 110.0 288.1186291822646 L 110.0 251.55157142196276" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 110.0 218.20109426748184 L 110.0 181.63403650717999" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 214.4456947944986 438.71266189638715 L 187.02040147427223 438.71266189638715 M 214.4456947944986 411.2873685761609 A 27.425293320226356 27.425293320226356 0 0 0 187.02040147427223 438.71266189638715" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 247.9654977414419 438.71266189638715 L 220.54020442121552 438.71266189638715 M 247.9654977414419 411.2873685761609 A 27.425293320226356 27.425293320226356 0 0 0 220.54020442121552 438.71266189638715" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 333.5789444815481 336.705380403538 L 361.0042378017745 336.705380403538 M 333.5789444815481 309.28008708331174 A 27.425293320226356 27.425293320226356 0 0 1 361.0042378017745 336.705380403538" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 333.5789444815481 231.8290780313638 L 361.0042378017745 231.8290780313638 M 333.5789444815481 204.4037847111374 A 27.425293320226356 27.425293320226356 0 0 1 361.0042378017745 231.8290780313638" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 383.26315436633655 231.8290780313638 L 355.83786104611016 231.8290780313638 M 383.26315436633655 204.4037847111374 A 27.425293320226356 27.425293320226356 0 0 0 355.83786104611016 231.8290780313638" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 444.03449616404856 438.71266189638715 L 471.4597894842749 438.71266189638715 M 444.03449616404856 411.2873685761609 A 27.425293320226356 27.425293320226356 0 0 1 471.4597894842749 438.71266189638715" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 477.55432958354004 438.71266189638715 L 504.97962290376637 438.71266189638715 M 477.55432958354004 411.2873685761609 A 27.425293320226356 27.425293320226356 0 0 1 504.97962290376637 438.71266189638715" fill="none" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 581.9999939054906 650.1671279814483 L 581.9999939054906 613.6000702211464" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 581.9999939054906 443.2835441164249 L 581.9999939054906 406.71648635612314" stroke="#4d7f9b" stroke-width="1.5"/>
+<path d="M 581.9999939054906 236.39996025140158 L 581.9999939054906 199.83290249109962" stroke="#4d7f9b" stroke-width="1.5"/>
+<text x="346.00" y="619.88" text-anchor="middle" font-size="10" fill="#1a2332">Retail</text>
+<text x="346.00" y="633.88" text-anchor="middle" font-size="8" fill="#53616d">89.6 m² / 964 ft²</text>
+<text x="346.00" y="646.88" text-anchor="middle" font-size="8" fill="#53616d">15.49 × 5.78 m</text>
+<text x="346.00" y="515.01" text-anchor="middle" font-size="10" fill="#1a2332">2</text>
+<text x="221.79" y="222.88" text-anchor="middle" font-size="10" fill="#1a2332">Café</text>
+<text x="221.79" y="236.88" text-anchor="middle" font-size="8" fill="#53616d">50.5 m² / 544 ft²</text>
+<text x="221.79" y="249.88" text-anchor="middle" font-size="8" fill="#53616d">7.34 × 6.88 m</text>
+<text x="358.42" y="206.12" text-anchor="middle" font-size="10" fill="#1a2332">4</text>
+<text x="358.42" y="310.99" text-anchor="middle" font-size="10" fill="#1a2332">5</text>
+<text x="482.63" y="206.12" text-anchor="middle" font-size="10" fill="#1a2332">Studio</text>
+<text x="482.63" y="220.12" text-anchor="middle" font-size="8" fill="#53616d">37.7 m² / 406 ft²</text>
+<text x="482.63" y="233.12" text-anchor="middle" font-size="8" fill="#53616d">6.52 × 5.78 m</text>
+<text x="482.63" y="310.99" text-anchor="middle" font-size="10" fill="#1a2332">7</text>
+<text x="162.22" y="413.00" text-anchor="middle" font-size="10" fill="#1a2332">Storage</text>
+<text x="162.22" y="427.00" text-anchor="middle" font-size="8" fill="#53616d">19.2 m² / 206 ft²</text>
+<text x="162.22" y="440.00" text-anchor="middle" font-size="8" fill="#53616d">3.43 × 5.60 m</text>
+<text x="231.21" y="413.00" text-anchor="middle" font-size="10" fill="#1a2332">9</text>
+<text x="529.78" y="413.00" text-anchor="middle" font-size="10" fill="#1a2332">Prep Kitchen</text>
+<text x="529.78" y="427.00" text-anchor="middle" font-size="8" fill="#53616d">19.2 m² / 206 ft²</text>
+<text x="529.78" y="440.00" text-anchor="middle" font-size="8" fill="#53616d">3.43 × 5.60 m</text>
+<text x="460.79" y="413.00" text-anchor="middle" font-size="10" fill="#1a2332">11</text>
+<text x="346.00" y="413.00" text-anchor="middle" font-size="10" fill="#1a2332">Shared Court</text>
+<text x="346.00" y="427.00" text-anchor="middle" font-size="8" fill="#53616d">36.0 m² / 388 ft²</text>
+<text x="346.00" y="440.00" text-anchor="middle" font-size="8" fill="#53616d">6.43 × 5.60 m</text>
+<path d="M 110.00 90.00 L 582.00 90.00" stroke="#1a2332" stroke-width=".7"/>
+<path d="M 107.00 93.00 l 6 -6" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 579.00 93.00 l 6 -6" stroke="#1a2332" stroke-width=".8"/>
+<text x="346.00" y="85.00" text-anchor="middle" font-size="9" fill="#1a2332">15.49 m</text>
+<path d="M 65.00 130.00 L 65.00 720.00" stroke="#1a2332" stroke-width=".7"/>
+<path d="M 62.00 133.00 l 6 -6" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 62.00 723.00 l 6 -6" stroke="#1a2332" stroke-width=".8"/>
+<text x="60.00" y="425.00" text-anchor="middle" font-size="9" fill="#1a2332" transform="rotate(-90 60.0 425.0)">19.36 m</text>
+<path d="M 110.00 742.00 L 582.00 742.00" stroke="#1a2332" stroke-width=".7"/>
+<path d="M 107.00 745.00 l 6 -6" stroke="#1a2332" stroke-width=".8"/>
+<path d="M 579.00 745.00 l 6 -6" stroke="#1a2332" stroke-width=".8"/>
+<text x="346.00" y="737.00" text-anchor="middle" font-size="9" fill="#1a2332">15.49</text>
+<path d="M 110.0 424.99999999999994 L 581.9999939054906 424.99999999999994" stroke="#a35529" stroke-width=".8" stroke-dasharray="7 5"/><text x="92.0" y="417.99999999999994" font-size="10" fill="#a35529">A</text>
+<g transform="translate(1100,65)"><path d="M 0 27 L 0 0 L -5 10 M 0 0 L 5 10" stroke="#1a2332" fill="none"/><text x="10" y="12" font-size="11">N</text></g>
+<rect x="28" y="793" width="152.3627406679242" height="4" fill="#1a2332"/><text x="28" y="786" font-size="9">0 — 5 m</text>
+<text x="28" y="821" font-size="10" fill="#1a2332">Entrance: south · Floor/wall finishes: see model and room schedule</text>
+<line x1="28" y1="849" x2="1172" y2="849" stroke="#aaa"/>
+<text x="28" y="867" font-size="10" fill="#a35529">CONCEPT DESIGN — NOT FOR CONSTRUCTION · Licensed professional review required · 2026-10-16</text>
+<text x="28" y="884" font-size="9" fill="#1a2332">Dimensions in metres from model geometry · Scale bar governs; scaling changes with print size</text></svg>

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "fail": [],
+  "warn": [
+    "living: area 74.6 m² vs target 44.0 m² (69% deviation)",
+    "bath-g: area 9.4 m² vs target 7.0 m² (34% deviation)",
+    "dining: area 36.5 m² vs target 22.0 m² (66% deviation)",
+    "guest: area 21.5 m² vs target 16.0 m² (34% deviation)",
+    "primary: area 19.1 m² vs target 26.0 m² (26% deviation)",
+    "family: area 14.7 m² vs target 20.0 m² (26% deviation)",
+    "bedroom-2: area 13.3 m² vs target 18.0 m² (26% deviation)",
+    "bedroom-3: area 13.3 m² vs target 18.0 m² (26% deviation)",
+    "bath-u1: area 5.0 m² vs target 8.0 m² (37% deviation)",
+    "bath-u2: area 4.4 m² vs target 7.0 m² (37% deviation)",
+    "dining ↔ living: preferred adjacency not realized",
+    "furniture-bedroom-3-bed: conflicts with door swing D-3e8a22e7c97a",
+    "gallery-upper-region-1: potential circulation dead end over 3 m (concept proxy)",
+    "gallery-upper-region-4: potential circulation dead end over 3 m (concept proxy)"
+  ],
+  "ok": [
+    "26 spaces, 78 walls, 68 openings"
+  ],
+  "metrics": {
+    "enclosed_area_m2": 285.06,
+    "circulation_area_m2": 55.86,
+    "footprint_m2": 208.1,
+    "adjacency_realized": 1,
+    "adjacency_requested": 2,
+    "daylit_rooms": 8,
+    "habitable_rooms": 8,
+    "area_deviation_mean": 0.3148,
+    "reachable_spaces": 26
+  },
+  "constraints": [],
+  "disclaimer": "Concept design only — requires licensed professional review. Not for construction."
+}

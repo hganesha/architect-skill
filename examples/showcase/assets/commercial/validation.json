@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "fail": [],
+  "warn": [
+    "retail: area 89.6 m² vs target 70.0 m² (28% deviation)"
+  ],
+  "ok": [
+    "12 spaces, 36 walls, 40 openings"
+  ],
+  "metrics": {
+    "enclosed_area_m2": 263.9,
+    "circulation_area_m2": 38.31,
+    "footprint_m2": 299.9,
+    "adjacency_realized": 1,
+    "adjacency_requested": 1,
+    "daylit_rooms": 5,
+    "habitable_rooms": 5,
+    "area_deviation_mean": 0.089,
+    "reachable_spaces": 12
+  },
+  "constraints": [],
+  "disclaimer": "Concept design only — requires licensed professional review. Not for construction."
+}

@@ -1,0 +1,2599 @@
+{
+  "meta": {
+    "name": "Courtyard Residence",
+    "variant": 0,
+    "variant_name": "Central court, entrance-led public band",
+    "style": "japanese-minimal × south-indian-courtyard",
+    "disclaimer": "Concept design only — requires licensed professional review. Not for construction.",
+    "units": "meters",
+    "input_units": "meters",
+    "schema_version": "2.0"
+  },
+  "site": {
+    "width": 21.3,
+    "depth": 33.5,
+    "entrance": "east",
+    "hemisphere": "north",
+    "setbacks": {
+      "east": 2.0,
+      "west": 2.0,
+      "north": 2.5,
+      "south": 2.5
+    },
+    "footprint": {
+      "x": 3.0909,
+      "y": 7.301124,
+      "w": 15.118201,
+      "d": 18.897751
+    },
+    "buildable": {
+      "x": 2.0,
+      "y": 2.5,
+      "w": 17.3,
+      "d": 28.5
+    }
+  },
+  "levels": [
+    {
+      "id": "ground",
+      "elevation": 0.0,
+      "height": 3.6
+    }
+  ],
+  "spaces": [
+    {
+      "id": "study",
+      "name": "Study",
+      "type": "room",
+      "zone": "private",
+      "target_area": 12.0,
+      "level": "ground",
+      "rect": {
+        "x": 3.0909,
+        "y": 7.301124,
+        "w": 2.418912,
+        "d": 5.711354
+      },
+      "polygon": [
+        [
+          3.0908995340516867,
+          7.30112441756461
+        ],
+        [
+          5.509811683155148,
+          7.30112441756461
+        ],
+        [
+          5.509811683155148,
+          13.012478
+        ],
+        [
+          3.0908995340516867,
+          13.012478
+        ]
+      ],
+      "area": 13.8153,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": false
+    },
+    {
+      "id": "gallery-study",
+      "name": "Gallery · Study",
+      "level": "ground",
+      "type": "circulation",
+      "zone": "circulation",
+      "target_area": 2.660803364013807,
+      "rect": {
+        "x": 3.0909,
+        "y": 13.012478,
+        "w": 2.418912,
+        "d": 1.1
+      },
+      "polygon": [
+        [
+          3.0908995340516867,
+          13.012478
+        ],
+        [
+          5.509811683155148,
+          13.012478
+        ],
+        [
+          5.509811683155148,
+          14.112478
+        ],
+        [
+          3.0908995340516867,
+          14.112478
+        ]
+      ],
+      "area": 2.6608,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": true
+    },
+    {
+      "id": "bedroom-3",
+      "name": "Bedroom 3",
+      "type": "room",
+      "zone": "private",
+      "target_area": 18.0,
+      "requires_exterior_wall": true,
+      "level": "ground",
+      "rect": {
+        "x": 5.509812,
+        "y": 7.301124,
+        "w": 3.628368,
+        "d": 5.711354
+      },
+      "polygon": [
+        [
+          5.509811683155148,
+          7.30112441756461
+        ],
+        [
+          9.138179906810338,
+          7.30112441756461
+        ],
+        [
+          9.138179906810338,
+          13.012478
+        ],
+        [
+          5.509811683155148,
+          13.012478
+        ]
+      ],
+      "area": 20.7229,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": false
+    },
+    {
+      "id": "gallery-bedroom-3",
+      "name": "Gallery · Bedroom 3",
+      "level": "ground",
+      "type": "circulation",
+      "zone": "circulation",
+      "target_area": 3.99120504602071,
+      "rect": {
+        "x": 5.509812,
+        "y": 13.012478,
+        "w": 3.628368,
+        "d": 1.1
+      },
+      "polygon": [
+        [
+          5.509811683155148,
+          13.012478
+        ],
+        [
+          9.138179906810338,
+          13.012478
+        ],
+        [
+          9.138179906810338,
+          14.112478
+        ],
+        [
+          5.509811683155148,
+          14.112478
+        ]
+      ],
+      "area": 3.9912,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": true
+    },
+    {
+      "id": "bath-2",
+      "name": "Bath 2",
+      "type": "bath",
+      "zone": "service",
+      "target_area": 7.0,
+      "materials": {
+        "floor": "marble",
+        "wall": "quartz"
+      },
+      "level": "ground",
+      "rect": {
+        "x": 9.13818,
+        "y": 7.301124,
+        "w": 1.411032,
+        "d": 5.711354
+      },
+      "polygon": [
+        [
+          9.138179906810338,
+          7.30112441756461
+        ],
+        [
+          10.549211993787356,
+          7.30112441756461
+        ],
+        [
+          10.549211993787356,
+          13.012478
+        ],
+        [
+          9.138179906810338,
+          13.012478
+        ]
+      ],
+      "area": 8.0589,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": false
+    },
+    {
+      "id": "gallery-bath-2",
+      "name": "Gallery · Bath 2",
+      "level": "ground",
+      "type": "circulation",
+      "zone": "circulation",
+      "target_area": 1.55213529567472,
+      "rect": {
+        "x": 9.13818,
+        "y": 13.012478,
+        "w": 1.411032,
+        "d": 1.1
+      },
+      "polygon": [
+        [
+          9.138179906810338,
+          13.012478
+        ],
+        [
+          10.549211993787356,
+          13.012478
+        ],
+        [
+          10.549211993787356,
+          14.112478
+        ],
+        [
+          9.138179906810338,
+          14.112478
+        ]
+      ],
+      "area": 1.5521,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": true
+    },
+    {
+      "id": "bedroom-1",
+      "name": "Bedroom 1",
+      "type": "room",
+      "zone": "private",
+      "target_area": 20.0,
+      "requires_exterior_wall": true,
+      "level": "ground",
+      "rect": {
+        "x": 10.549212,
+        "y": 7.301124,
+        "w": 4.03152,
+        "d": 5.711354
+      },
+      "polygon": [
+        [
+          10.549211993787356,
+          7.30112441756461
+        ],
+        [
+          14.580732242293124,
+          7.30112441756461
+        ],
+        [
+          14.580732242293124,
+          13.012478
+        ],
+        [
+          10.549211993787356,
+          13.012478
+        ]
+      ],
+      "area": 23.0254,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": false
+    },
+    {
+      "id": "gallery-bedroom-1",
+      "name": "Gallery · Bedroom 1",
+      "level": "ground",
+      "type": "circulation",
+      "zone": "circulation",
+      "target_area": 4.434672273356345,
+      "rect": {
+        "x": 10.549212,
+        "y": 13.012478,
+        "w": 4.03152,
+        "d": 1.1
+      },
+      "polygon": [
+        [
+          10.549211993787356,
+          13.012478
+        ],
+        [
+          14.580732242293124,
+          13.012478
+        ],
+        [
+          14.580732242293124,
+          14.112478
+        ],
+        [
+          10.549211993787356,
+          14.112478
+        ]
+      ],
+      "area": 4.4347,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": true
+    },
+    {
+      "id": "bedroom-2",
+      "name": "Bedroom 2",
+      "type": "room",
+      "zone": "private",
+      "target_area": 18.0,
+      "requires_exterior_wall": true,
+      "level": "ground",
+      "rect": {
+        "x": 14.580732,
+        "y": 7.301124,
+        "w": 3.628368,
+        "d": 5.711354
+      },
+      "polygon": [
+        [
+          14.580732242293124,
+          7.30112441756461
+        ],
+        [
+          18.209100465948314,
+          7.30112441756461
+        ],
+        [
+          18.209100465948314,
+          13.012478
+        ],
+        [
+          14.580732242293124,
+          13.012478
+        ]
+      ],
+      "area": 20.7229,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": false
+    },
+    {
+      "id": "gallery-bedroom-2",
+      "name": "Gallery · Bedroom 2",
+      "level": "ground",
+      "type": "circulation",
+      "zone": "circulation",
+      "target_area": 3.99120504602071,
+      "rect": {
+        "x": 14.580732,
+        "y": 13.012478,
+        "w": 3.628368,
+        "d": 1.1
+      },
+      "polygon": [
+        [
+          14.580732242293124,
+          13.012478
+        ],
+        [
+          18.209100465948314,
+          13.012478
+        ],
+        [
+          18.209100465948314,
+          14.112478
+        ],
+        [
+          14.580732242293124,
+          14.112478
+        ]
+      ],
+      "area": 3.9912,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": true
+    },
+    {
+      "id": "bath-1",
+      "name": "Bath 1",
+      "type": "bath",
+      "zone": "service",
+      "target_area": 8.0,
+      "materials": {
+        "floor": "marble",
+        "wall": "quartz"
+      },
+      "level": "ground",
+      "rect": {
+        "x": 3.0909,
+        "y": 20.487522,
+        "w": 1.51182,
+        "d": 5.711354
+      },
+      "polygon": [
+        [
+          3.0908995340516867,
+          20.487522000000002
+        ],
+        [
+          4.602719627241349,
+          20.487522000000002
+        ],
+        [
+          4.602719627241349,
+          26.19887558243539
+        ],
+        [
+          3.0908995340516867,
+          26.19887558243539
+        ]
+      ],
+      "area": 8.6345,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": false
+    },
+    {
+      "id": "gallery-bath-1",
+      "name": "Gallery · Bath 1",
+      "level": "ground",
+      "type": "circulation",
+      "zone": "circulation",
+      "target_area": 1.6630021025086288,
+      "rect": {
+        "x": 3.0909,
+        "y": 19.387522,
+        "w": 1.51182,
+        "d": 1.1
+      },
+      "polygon": [
+        [
+          3.0908995340516867,
+          19.387522
+        ],
+        [
+          4.602719627241349,
+          19.387522
+        ],
+        [
+          4.602719627241349,
+          20.487522000000002
+        ],
+        [
+          3.0908995340516867,
+          20.487522000000002
+        ]
+      ],
+      "area": 1.663,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": true
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "type": "kitchen",
+      "zone": "service",
+      "target_area": 16.0,
+      "adjacent_to": [
+        "dining"
+      ],
+      "materials": {
+        "floor": "quartz"
+      },
+      "open_plan_group": "day-spaces",
+      "level": "ground",
+      "rect": {
+        "x": 4.60272,
+        "y": 19.387522,
+        "w": 3.02364,
+        "d": 6.811354
+      },
+      "polygon": [
+        [
+          4.602719627241349,
+          19.387522
+        ],
+        [
+          7.626359813620675,
+          19.387522
+        ],
+        [
+          7.626359813620675,
+          26.19887558243539
+        ],
+        [
+          4.602719627241349,
+          26.19887558243539
+        ]
+      ],
+      "area": 20.5951,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": false
+    },
+    {
+      "id": "living",
+      "name": "Living Room",
+      "type": "room",
+      "zone": "public",
+      "target_area": 48.0,
+      "double_height": false,
+      "adjacent_to": [
+        "courtyard",
+        "dining"
+      ],
+      "materials": {
+        "floor": "limestone",
+        "wall": "wood_slat"
+      },
+      "open_plan_group": "day-spaces",
+      "level": "ground",
+      "ceiling_height": 4.87,
+      "rect": {
+        "x": 7.62636,
+        "y": 19.387522,
+        "w": 9.070921,
+        "d": 6.811354
+      },
+      "polygon": [
+        [
+          7.626359813620675,
+          19.387522
+        ],
+        [
+          16.69728037275865,
+          19.387522
+        ],
+        [
+          16.69728037275865,
+          26.19887558243539
+        ],
+        [
+          7.626359813620675,
+          26.19887558243539
+        ]
+      ],
+      "area": 61.7852,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": false
+    },
+    {
+      "id": "utility",
+      "name": "Utility",
+      "type": "room",
+      "zone": "service",
+      "target_area": 8.0,
+      "level": "ground",
+      "rect": {
+        "x": 16.69728,
+        "y": 20.487522,
+        "w": 1.51182,
+        "d": 5.711354
+      },
+      "polygon": [
+        [
+          16.69728037275865,
+          20.487522000000002
+        ],
+        [
+          18.209100465948314,
+          20.487522000000002
+        ],
+        [
+          18.209100465948314,
+          26.19887558243539
+        ],
+        [
+          16.69728037275865,
+          26.19887558243539
+        ]
+      ],
+      "area": 8.6345,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": false
+    },
+    {
+      "id": "gallery-utility",
+      "name": "Gallery · Utility",
+      "level": "ground",
+      "type": "circulation",
+      "zone": "circulation",
+      "target_area": 1.6630021025086288,
+      "rect": {
+        "x": 16.69728,
+        "y": 19.387522,
+        "w": 1.51182,
+        "d": 1.1
+      },
+      "polygon": [
+        [
+          16.69728037275865,
+          19.387522
+        ],
+        [
+          18.209100465948314,
+          19.387522
+        ],
+        [
+          18.209100465948314,
+          20.487522000000002
+        ],
+        [
+          16.69728037275865,
+          20.487522000000002
+        ]
+      ],
+      "area": 1.663,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": true
+    },
+    {
+      "id": "dining",
+      "name": "Dining",
+      "type": "room",
+      "zone": "public",
+      "target_area": 24.0,
+      "adjacent_to": [
+        "living",
+        "kitchen"
+      ],
+      "open_plan_group": "day-spaces",
+      "level": "ground",
+      "skylight": true,
+      "rect": {
+        "x": 3.0909,
+        "y": 14.112478,
+        "w": 3.767663,
+        "d": 5.275044
+      },
+      "polygon": [
+        [
+          3.0908995340516867,
+          14.112478
+        ],
+        [
+          6.858562500000001,
+          14.112478
+        ],
+        [
+          6.858562500000001,
+          19.387522
+        ],
+        [
+          3.0908995340516867,
+          19.387522
+        ]
+      ],
+      "area": 19.8746,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "auto_generated": false
+    },
+    {
+      "id": "foyer",
+      "name": "Foyer",
+      "type": "room",
+      "zone": "public",
+      "target_area": 10.0,
+      "adjacent_to": [
+        "living"
+      ],
+      "level": "ground",
+      "rect": {
+        "x": 15.541437,
+        "y": 14.112478,
+        "w": 2.667663,
+        "d": 5.275044
+      },
+      "polygon": [
+        [
+          15.541437499999999,
+          14.112478
+        ],
+        [
+          18.209100465948314,
+          14.112478
+        ],
+        [
+          18.209100465948314,
+          19.387522
+        ],
+        [
+          15.541437499999999,
+          19.387522
+        ]
+      ],
+      "area": 14.072,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": false
+    },
+    {
+      "id": "gallery-foyer",
+      "name": "Gallery · Foyer",
+      "level": "ground",
+      "type": "circulation",
+      "zone": "circulation",
+      "target_area": 5.802548400000002,
+      "rect": {
+        "x": 14.441437,
+        "y": 14.112478,
+        "w": 1.1,
+        "d": 5.275044
+      },
+      "polygon": [
+        [
+          14.4414375,
+          14.112478
+        ],
+        [
+          15.541437499999999,
+          14.112478
+        ],
+        [
+          15.541437499999999,
+          19.387522
+        ],
+        [
+          14.4414375,
+          19.387522
+        ]
+      ],
+      "area": 5.8025,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "open_to_sky": false,
+      "skylight": false,
+      "auto_generated": true
+    },
+    {
+      "id": "courtyard",
+      "name": "Internal Courtyard",
+      "type": "courtyard",
+      "zone": "outdoor",
+      "target_area": 39.9999992715,
+      "open_to_sky": true,
+      "level": "ground",
+      "aspect_ratio": 1.437499857821091,
+      "rect": {
+        "x": 6.858563,
+        "y": 14.112478,
+        "w": 7.582875,
+        "d": 5.275044
+      },
+      "polygon": [
+        [
+          6.858562500000001,
+          14.112478
+        ],
+        [
+          14.4414375,
+          14.112478
+        ],
+        [
+          14.4414375,
+          19.387522
+        ],
+        [
+          6.858562500000001,
+          19.387522
+        ]
+      ],
+      "area": 40.0,
+      "ceiling_height": 3.6,
+      "double_height": false,
+      "skylight": false,
+      "auto_generated": false
+    }
+  ],
+  "walls": [
+    {
+      "id": "W-640c2315dfcc",
+      "level": "ground",
+      "x1": 3.0909,
+      "y1": 7.301124,
+      "x2": 5.509812,
+      "y2": 7.301124,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "study",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-e0f26eca0464",
+      "level": "ground",
+      "x1": 5.509812,
+      "y1": 7.301124,
+      "x2": 9.13818,
+      "y2": 7.301124,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "bedroom-3",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-884723e4ad6a",
+      "level": "ground",
+      "x1": 9.13818,
+      "y1": 7.301124,
+      "x2": 10.549212,
+      "y2": 7.301124,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "bath-2",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-2123eda892ce",
+      "level": "ground",
+      "x1": 10.549212,
+      "y1": 7.301124,
+      "x2": 14.580732,
+      "y2": 7.301124,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "bedroom-1",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-3370dc335148",
+      "level": "ground",
+      "x1": 14.580732,
+      "y1": 7.301124,
+      "x2": 18.2091,
+      "y2": 7.301124,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "bedroom-2",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-2b93a3803ecb",
+      "level": "ground",
+      "x1": 3.0909,
+      "y1": 13.012478,
+      "x2": 5.509812,
+      "y2": 13.012478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "gallery-study",
+        "study"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-17f0c8f9c5fb",
+      "level": "ground",
+      "x1": 5.509812,
+      "y1": 13.012478,
+      "x2": 9.13818,
+      "y2": 13.012478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "bedroom-3",
+        "gallery-bedroom-3"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-fac88e7224a1",
+      "level": "ground",
+      "x1": 9.13818,
+      "y1": 13.012478,
+      "x2": 10.549212,
+      "y2": 13.012478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "bath-2",
+        "gallery-bath-2"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-6dbd656e8923",
+      "level": "ground",
+      "x1": 10.549212,
+      "y1": 13.012478,
+      "x2": 14.580732,
+      "y2": 13.012478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "bedroom-1",
+        "gallery-bedroom-1"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-d8e8c36b5791",
+      "level": "ground",
+      "x1": 14.580732,
+      "y1": 13.012478,
+      "x2": 18.2091,
+      "y2": 13.012478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "bedroom-2",
+        "gallery-bedroom-2"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-dd3cf41e79e3",
+      "level": "ground",
+      "x1": 3.0909,
+      "y1": 14.112478,
+      "x2": 5.509812,
+      "y2": 14.112478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "dining",
+        "gallery-study"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-01cfa33cee41",
+      "level": "ground",
+      "x1": 5.509812,
+      "y1": 14.112478,
+      "x2": 6.858563,
+      "y2": 14.112478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "dining",
+        "gallery-bedroom-3"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-00bbf982e19d",
+      "level": "ground",
+      "x1": 6.858563,
+      "y1": 14.112478,
+      "x2": 9.13818,
+      "y2": 14.112478,
+      "thickness": 0.2,
+      "height": 3.6,
+      "kind": "courtyard",
+      "spaces": [
+        "courtyard",
+        "gallery-bedroom-3"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-023867be2e93",
+      "level": "ground",
+      "x1": 9.13818,
+      "y1": 14.112478,
+      "x2": 10.549212,
+      "y2": 14.112478,
+      "thickness": 0.2,
+      "height": 3.6,
+      "kind": "courtyard",
+      "spaces": [
+        "courtyard",
+        "gallery-bath-2"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-c242bb9f9cd1",
+      "level": "ground",
+      "x1": 10.549212,
+      "y1": 14.112478,
+      "x2": 14.441437,
+      "y2": 14.112478,
+      "thickness": 0.2,
+      "height": 3.6,
+      "kind": "courtyard",
+      "spaces": [
+        "courtyard",
+        "gallery-bedroom-1"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-578fbef92e48",
+      "level": "ground",
+      "x1": 14.441437,
+      "y1": 14.112478,
+      "x2": 14.580732,
+      "y2": 14.112478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "gallery-bedroom-1",
+        "gallery-foyer"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-9eb30903a5a5",
+      "level": "ground",
+      "x1": 14.580732,
+      "y1": 14.112478,
+      "x2": 15.541437,
+      "y2": 14.112478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "gallery-bedroom-2",
+        "gallery-foyer"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-f0a3e6617147",
+      "level": "ground",
+      "x1": 15.541437,
+      "y1": 14.112478,
+      "x2": 18.2091,
+      "y2": 14.112478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "foyer",
+        "gallery-bedroom-2"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-87c6848d8259",
+      "level": "ground",
+      "x1": 3.0909,
+      "y1": 19.387522,
+      "x2": 4.60272,
+      "y2": 19.387522,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "dining",
+        "gallery-bath-1"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-6f22172bd4d0",
+      "level": "ground",
+      "x1": 4.60272,
+      "y1": 19.387522,
+      "x2": 6.858563,
+      "y2": 19.387522,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "dining",
+        "kitchen"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-8712bb28bdea",
+      "level": "ground",
+      "x1": 6.858563,
+      "y1": 19.387522,
+      "x2": 7.62636,
+      "y2": 19.387522,
+      "thickness": 0.2,
+      "height": 3.6,
+      "kind": "courtyard",
+      "spaces": [
+        "courtyard",
+        "kitchen"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-8bdcbcf73927",
+      "level": "ground",
+      "x1": 7.62636,
+      "y1": 19.387522,
+      "x2": 14.441437,
+      "y2": 19.387522,
+      "thickness": 0.2,
+      "height": 4.87,
+      "kind": "courtyard",
+      "spaces": [
+        "courtyard",
+        "living"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-52bea29ef710",
+      "level": "ground",
+      "x1": 14.441437,
+      "y1": 19.387522,
+      "x2": 15.541437,
+      "y2": 19.387522,
+      "thickness": 0.15,
+      "height": 4.87,
+      "kind": "interior",
+      "spaces": [
+        "gallery-foyer",
+        "living"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-1f984f0ce1f4",
+      "level": "ground",
+      "x1": 15.541437,
+      "y1": 19.387522,
+      "x2": 16.69728,
+      "y2": 19.387522,
+      "thickness": 0.15,
+      "height": 4.87,
+      "kind": "interior",
+      "spaces": [
+        "foyer",
+        "living"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-41175fddbea9",
+      "level": "ground",
+      "x1": 16.69728,
+      "y1": 19.387522,
+      "x2": 18.2091,
+      "y2": 19.387522,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "foyer",
+        "gallery-utility"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-2c9c1b3e3db5",
+      "level": "ground",
+      "x1": 3.0909,
+      "y1": 20.487522,
+      "x2": 4.60272,
+      "y2": 20.487522,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "bath-1",
+        "gallery-bath-1"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-74c61fb80ead",
+      "level": "ground",
+      "x1": 16.69728,
+      "y1": 20.487522,
+      "x2": 18.2091,
+      "y2": 20.487522,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "gallery-utility",
+        "utility"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-b6e3b06a2975",
+      "level": "ground",
+      "x1": 3.0909,
+      "y1": 26.198876,
+      "x2": 4.60272,
+      "y2": 26.198876,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "bath-1",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-b6febb79fa47",
+      "level": "ground",
+      "x1": 4.60272,
+      "y1": 26.198876,
+      "x2": 7.62636,
+      "y2": 26.198876,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "kitchen",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-9cc025dc41bd",
+      "level": "ground",
+      "x1": 7.62636,
+      "y1": 26.198876,
+      "x2": 16.69728,
+      "y2": 26.198876,
+      "thickness": 0.3,
+      "height": 4.87,
+      "kind": "exterior",
+      "spaces": [
+        "living",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-adffa84f3a9e",
+      "level": "ground",
+      "x1": 16.69728,
+      "y1": 26.198876,
+      "x2": 18.2091,
+      "y2": 26.198876,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "utility",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-14fe234c85d4",
+      "level": "ground",
+      "x1": 3.0909,
+      "y1": 7.301124,
+      "x2": 3.0909,
+      "y2": 13.012478,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "study",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-a19371353579",
+      "level": "ground",
+      "x1": 3.0909,
+      "y1": 13.012478,
+      "x2": 3.0909,
+      "y2": 14.112478,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "gallery-study",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-3fbd13097563",
+      "level": "ground",
+      "x1": 3.0909,
+      "y1": 14.112478,
+      "x2": 3.0909,
+      "y2": 19.387522,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "dining",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-1af8b78c299a",
+      "level": "ground",
+      "x1": 3.0909,
+      "y1": 19.387522,
+      "x2": 3.0909,
+      "y2": 20.487522,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "gallery-bath-1",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-2ececb1952cb",
+      "level": "ground",
+      "x1": 3.0909,
+      "y1": 20.487522,
+      "x2": 3.0909,
+      "y2": 26.198876,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "bath-1",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-a663938c3c82",
+      "level": "ground",
+      "x1": 4.60272,
+      "y1": 19.387522,
+      "x2": 4.60272,
+      "y2": 20.487522,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "gallery-bath-1",
+        "kitchen"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-71f5c9aefd24",
+      "level": "ground",
+      "x1": 4.60272,
+      "y1": 20.487522,
+      "x2": 4.60272,
+      "y2": 26.198876,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "bath-1",
+        "kitchen"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-109b15a058e9",
+      "level": "ground",
+      "x1": 5.509812,
+      "y1": 7.301124,
+      "x2": 5.509812,
+      "y2": 13.012478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "bedroom-3",
+        "study"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-c75d1ef3da30",
+      "level": "ground",
+      "x1": 5.509812,
+      "y1": 13.012478,
+      "x2": 5.509812,
+      "y2": 14.112478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "gallery-bedroom-3",
+        "gallery-study"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-9c931e1cdbe0",
+      "level": "ground",
+      "x1": 6.858563,
+      "y1": 14.112478,
+      "x2": 6.858563,
+      "y2": 19.387522,
+      "thickness": 0.2,
+      "height": 3.6,
+      "kind": "courtyard",
+      "spaces": [
+        "courtyard",
+        "dining"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-bd722b4443ae",
+      "level": "ground",
+      "x1": 7.62636,
+      "y1": 19.387522,
+      "x2": 7.62636,
+      "y2": 26.198876,
+      "thickness": 0.15,
+      "height": 4.87,
+      "kind": "interior",
+      "spaces": [
+        "kitchen",
+        "living"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-19e4868275f0",
+      "level": "ground",
+      "x1": 9.13818,
+      "y1": 7.301124,
+      "x2": 9.13818,
+      "y2": 13.012478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "bath-2",
+        "bedroom-3"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-3aa653a33681",
+      "level": "ground",
+      "x1": 9.13818,
+      "y1": 13.012478,
+      "x2": 9.13818,
+      "y2": 14.112478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "gallery-bath-2",
+        "gallery-bedroom-3"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-d7b68c2aa239",
+      "level": "ground",
+      "x1": 10.549212,
+      "y1": 7.301124,
+      "x2": 10.549212,
+      "y2": 13.012478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "bath-2",
+        "bedroom-1"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-800f54839ec9",
+      "level": "ground",
+      "x1": 10.549212,
+      "y1": 13.012478,
+      "x2": 10.549212,
+      "y2": 14.112478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "gallery-bath-2",
+        "gallery-bedroom-1"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-b9f912d5335f",
+      "level": "ground",
+      "x1": 14.441437,
+      "y1": 14.112478,
+      "x2": 14.441437,
+      "y2": 19.387522,
+      "thickness": 0.2,
+      "height": 3.6,
+      "kind": "courtyard",
+      "spaces": [
+        "courtyard",
+        "gallery-foyer"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-de23e22770a6",
+      "level": "ground",
+      "x1": 14.580732,
+      "y1": 7.301124,
+      "x2": 14.580732,
+      "y2": 13.012478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "bedroom-1",
+        "bedroom-2"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-6843620b29d7",
+      "level": "ground",
+      "x1": 14.580732,
+      "y1": 13.012478,
+      "x2": 14.580732,
+      "y2": 14.112478,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "gallery-bedroom-1",
+        "gallery-bedroom-2"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-5b63fd062170",
+      "level": "ground",
+      "x1": 15.541437,
+      "y1": 14.112478,
+      "x2": 15.541437,
+      "y2": 19.387522,
+      "thickness": 0.15,
+      "height": 3.6,
+      "kind": "interior",
+      "spaces": [
+        "foyer",
+        "gallery-foyer"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-a95e381be410",
+      "level": "ground",
+      "x1": 16.69728,
+      "y1": 19.387522,
+      "x2": 16.69728,
+      "y2": 20.487522,
+      "thickness": 0.15,
+      "height": 4.87,
+      "kind": "interior",
+      "spaces": [
+        "gallery-utility",
+        "living"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-1d2b8ad55468",
+      "level": "ground",
+      "x1": 16.69728,
+      "y1": 20.487522,
+      "x2": 16.69728,
+      "y2": 26.198876,
+      "thickness": 0.15,
+      "height": 4.87,
+      "kind": "interior",
+      "spaces": [
+        "living",
+        "utility"
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-c5ebe82f5b4f",
+      "level": "ground",
+      "x1": 18.2091,
+      "y1": 7.301124,
+      "x2": 18.2091,
+      "y2": 13.012478,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "bedroom-2",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-c589a3c7578b",
+      "level": "ground",
+      "x1": 18.2091,
+      "y1": 13.012478,
+      "x2": 18.2091,
+      "y2": 14.112478,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "gallery-bedroom-2",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-4859a319fa9e",
+      "level": "ground",
+      "x1": 18.2091,
+      "y1": 14.112478,
+      "x2": 18.2091,
+      "y2": 19.387522,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "foyer",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-ac1de5519e6b",
+      "level": "ground",
+      "x1": 18.2091,
+      "y1": 19.387522,
+      "x2": 18.2091,
+      "y2": 20.487522,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "gallery-utility",
+        null
+      ],
+      "base_elevation": 0.0
+    },
+    {
+      "id": "W-e8e1a32730bd",
+      "level": "ground",
+      "x1": 18.2091,
+      "y1": 20.487522,
+      "x2": 18.2091,
+      "y2": 26.198876,
+      "thickness": 0.3,
+      "height": 3.6,
+      "kind": "exterior",
+      "spaces": [
+        "utility",
+        null
+      ],
+      "base_elevation": 0.0
+    }
+  ],
+  "openings": [
+    {
+      "id": "ENT-2dc7ba3b7c26",
+      "kind": "entrance",
+      "glazed": false,
+      "wall_id": "W-4859a319fa9e",
+      "offset": 2.6375220000000006,
+      "width": 1.1,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "foyer"
+    },
+    {
+      "id": "WIN-ee30d0df525f",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-640c2315dfcc",
+      "offset": 1.209456,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "study"
+    },
+    {
+      "id": "WIN-75983c9a6da9",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-e0f26eca0464",
+      "offset": 1.814184,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "bedroom-3"
+    },
+    {
+      "id": "WIN-950188107a83",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-884723e4ad6a",
+      "offset": 0.7055160000000003,
+      "width": 0.75,
+      "height": 0.8,
+      "sill": 1.4,
+      "space_id": "bath-2"
+    },
+    {
+      "id": "WIN-206c5556766e",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-2123eda892ce",
+      "offset": 2.0157599999999993,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "bedroom-1"
+    },
+    {
+      "id": "WIN-8cd75cfefb0b",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-3370dc335148",
+      "offset": 1.814184,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "bedroom-2"
+    },
+    {
+      "id": "D-49e794ddee24",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-2b93a3803ecb",
+      "offset": 1.209456,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "study"
+    },
+    {
+      "id": "D-63e0c3663916",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-17f0c8f9c5fb",
+      "offset": 1.814184,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-bedroom-3"
+    },
+    {
+      "id": "D-c23ba6585d4c",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-fac88e7224a1",
+      "offset": 0.7055160000000003,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-bath-2"
+    },
+    {
+      "id": "D-c6133e88c6e4",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-6dbd656e8923",
+      "offset": 2.0157599999999993,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-bedroom-1"
+    },
+    {
+      "id": "D-61bfa6c770a2",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-d8e8c36b5791",
+      "offset": 1.814184,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-bedroom-2"
+    },
+    {
+      "id": "D-a9bca5d655a7",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-dd3cf41e79e3",
+      "offset": 1.209456,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-study"
+    },
+    {
+      "id": "D-c063fe7cc698",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-01cfa33cee41",
+      "offset": 0.6743755,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-bedroom-3"
+    },
+    {
+      "id": "D-d019f3b3a937",
+      "kind": "door",
+      "glazed": true,
+      "wall_id": "W-00bbf982e19d",
+      "offset": 1.1398085,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-bedroom-3"
+    },
+    {
+      "id": "D-2e92486ed72f",
+      "kind": "door",
+      "glazed": true,
+      "wall_id": "W-023867be2e93",
+      "offset": 0.7055160000000003,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-bath-2"
+    },
+    {
+      "id": "D-b9a9d789f805",
+      "kind": "door",
+      "glazed": true,
+      "wall_id": "W-c242bb9f9cd1",
+      "offset": 1.9461125,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-bedroom-1"
+    },
+    {
+      "id": "P-20737b5707b8",
+      "kind": "passage",
+      "glazed": false,
+      "wall_id": "W-9eb30903a5a5",
+      "offset": 0.4803525000000004,
+      "width": 0.9,
+      "height": 3.6,
+      "sill": 0,
+      "space_id": "gallery-foyer"
+    },
+    {
+      "id": "D-7bb6e6662843",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-f0a3e6617147",
+      "offset": 1.3338314999999996,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-bedroom-2"
+    },
+    {
+      "id": "D-73f56830a7e3",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-87c6848d8259",
+      "offset": 0.7559099999999999,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-bath-1"
+    },
+    {
+      "id": "P-e6052d237052",
+      "kind": "passage",
+      "glazed": false,
+      "wall_id": "W-6f22172bd4d0",
+      "offset": 1.1279215000000002,
+      "width": 2.1358430000000004,
+      "height": 3.6,
+      "sill": 0,
+      "space_id": "kitchen"
+    },
+    {
+      "id": "D-6b0976e47af1",
+      "kind": "door",
+      "glazed": true,
+      "wall_id": "W-8bdcbcf73927",
+      "offset": 3.4075385000000002,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "living"
+    },
+    {
+      "id": "D-184f880fe758",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-52bea29ef710",
+      "offset": 0.5499999999999998,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "living"
+    },
+    {
+      "id": "D-33a60ccf0513",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-1f984f0ce1f4",
+      "offset": 0.5779214999999995,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "living"
+    },
+    {
+      "id": "D-fe2a585c5a7a",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-41175fddbea9",
+      "offset": 0.7559100000000001,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-utility"
+    },
+    {
+      "id": "D-445cf913bb3e",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-2c9c1b3e3db5",
+      "offset": 0.7559099999999999,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-bath-1"
+    },
+    {
+      "id": "D-e8501a34bf4a",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-74c61fb80ead",
+      "offset": 0.7559100000000001,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "utility"
+    },
+    {
+      "id": "WIN-54a823c20785",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-b6e3b06a2975",
+      "offset": 0.7559099999999999,
+      "width": 0.75,
+      "height": 0.8,
+      "sill": 1.4,
+      "space_id": "bath-1"
+    },
+    {
+      "id": "WIN-80fadf883908",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-b6febb79fa47",
+      "offset": 1.5118200000000002,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "kitchen"
+    },
+    {
+      "id": "WIN-02587b08c54c",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-9cc025dc41bd",
+      "offset": 2.26773,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "living"
+    },
+    {
+      "id": "WIN-d0bd15e8d884",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-9cc025dc41bd",
+      "offset": 4.53546,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "living"
+    },
+    {
+      "id": "WIN-8c0ff941bef4",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-9cc025dc41bd",
+      "offset": 6.803189999999999,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "living"
+    },
+    {
+      "id": "WIN-ef3e325f853c",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-adffa84f3a9e",
+      "offset": 0.7559100000000001,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "utility"
+    },
+    {
+      "id": "WIN-3acf4e7b5c7d",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-14fe234c85d4",
+      "offset": 2.855677,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "study"
+    },
+    {
+      "id": "WIN-8e36ce2c9789",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-3fbd13097563",
+      "offset": 2.6375220000000006,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "dining"
+    },
+    {
+      "id": "WIN-722b9c4ecf39",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-2ececb1952cb",
+      "offset": 2.855677,
+      "width": 0.75,
+      "height": 0.8,
+      "sill": 1.4,
+      "space_id": "bath-1"
+    },
+    {
+      "id": "D-4b4cddab7a8b",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-a663938c3c82",
+      "offset": 0.5499999999999989,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "kitchen"
+    },
+    {
+      "id": "D-7c0d4670edd9",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-71f5c9aefd24",
+      "offset": 2.855677,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "kitchen"
+    },
+    {
+      "id": "D-e2d5e58008ef",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-109b15a058e9",
+      "offset": 2.855677,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "study"
+    },
+    {
+      "id": "P-35e13208e48f",
+      "kind": "passage",
+      "glazed": false,
+      "wall_id": "W-c75d1ef3da30",
+      "offset": 0.5499999999999998,
+      "width": 0.9799999999999996,
+      "height": 3.6,
+      "sill": 0,
+      "space_id": "gallery-study"
+    },
+    {
+      "id": "D-b918bc312454",
+      "kind": "door",
+      "glazed": true,
+      "wall_id": "W-9c931e1cdbe0",
+      "offset": 2.6375220000000006,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "dining"
+    },
+    {
+      "id": "P-f149080abd8f",
+      "kind": "passage",
+      "glazed": false,
+      "wall_id": "W-bd722b4443ae",
+      "offset": 3.405676999999999,
+      "width": 6.691353999999998,
+      "height": 4.87,
+      "sill": 0,
+      "space_id": "living"
+    },
+    {
+      "id": "D-12c2088177f3",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-19e4868275f0",
+      "offset": 2.855677,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "bedroom-3"
+    },
+    {
+      "id": "P-ea11df4a20cd",
+      "kind": "passage",
+      "glazed": false,
+      "wall_id": "W-3aa653a33681",
+      "offset": 0.5499999999999998,
+      "width": 0.9799999999999996,
+      "height": 3.6,
+      "sill": 0,
+      "space_id": "gallery-bedroom-3"
+    },
+    {
+      "id": "D-6d831c649a26",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-d7b68c2aa239",
+      "offset": 2.855677,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "bedroom-1"
+    },
+    {
+      "id": "P-5305cdb05ff5",
+      "kind": "passage",
+      "glazed": false,
+      "wall_id": "W-800f54839ec9",
+      "offset": 0.5499999999999998,
+      "width": 0.9799999999999996,
+      "height": 3.6,
+      "sill": 0,
+      "space_id": "gallery-bedroom-1"
+    },
+    {
+      "id": "D-b564c94272df",
+      "kind": "door",
+      "glazed": true,
+      "wall_id": "W-b9f912d5335f",
+      "offset": 2.6375220000000006,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-foyer"
+    },
+    {
+      "id": "D-833a6c3705a5",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-de23e22770a6",
+      "offset": 2.855677,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "bedroom-2"
+    },
+    {
+      "id": "P-34c9068e0c32",
+      "kind": "passage",
+      "glazed": false,
+      "wall_id": "W-6843620b29d7",
+      "offset": 0.5499999999999998,
+      "width": 0.9799999999999996,
+      "height": 3.6,
+      "sill": 0,
+      "space_id": "gallery-bedroom-2"
+    },
+    {
+      "id": "D-2b73838c3232",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-5b63fd062170",
+      "offset": 2.6375220000000006,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "gallery-foyer"
+    },
+    {
+      "id": "D-c73b6779d95b",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-a95e381be410",
+      "offset": 0.5499999999999989,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "living"
+    },
+    {
+      "id": "D-9916d283e726",
+      "kind": "door",
+      "glazed": false,
+      "wall_id": "W-1d2b8ad55468",
+      "offset": 2.855677,
+      "width": 0.9,
+      "height": 2.4,
+      "sill": 0,
+      "space_id": "utility"
+    },
+    {
+      "id": "WIN-cbfcbc1402f3",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-c5ebe82f5b4f",
+      "offset": 2.855677,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "bedroom-2"
+    },
+    {
+      "id": "WIN-db815530d204",
+      "kind": "window",
+      "glazed": false,
+      "wall_id": "W-e8e1a32730bd",
+      "offset": 2.855677,
+      "width": 1.2,
+      "height": 1.3,
+      "sill": 0.9,
+      "space_id": "utility"
+    },
+    {
+      "id": "SKY-dining",
+      "kind": "skylight",
+      "wall_id": null,
+      "roof_id": "roof-dining",
+      "offset": 0,
+      "width": 1.8,
+      "depth": 1.2,
+      "height": 0.08,
+      "sill": 0,
+      "space_id": "dining",
+      "rect": {
+        "x": 4.074731,
+        "y": 16.15,
+        "w": 1.8,
+        "d": 1.2
+      }
+    }
+  ],
+  "stairs": [],
+  "voids": [],
+  "constraints": [
+    {
+      "type": "daylight",
+      "target": "living",
+      "priority": "high"
+    },
+    {
+      "type": "adjacency",
+      "spaces": [
+        "living",
+        "courtyard"
+      ],
+      "required": true
+    }
+  ],
+  "materials": {
+    "exterior": "natural_stone",
+    "interior": "lime_plaster",
+    "flooring": "limestone",
+    "roof": "standing_seam_metal"
+  },
+  "planning": {
+    "circulation_width": 1.1,
+    "furnish": true,
+    "landscape": true
+  },
+  "drawing": {},
+  "render": {},
+  "roof": {
+    "form": "flat with parapet"
+  },
+  "materials_resolved": {
+    "exterior_wall": {
+      "id": "natural_stone",
+      "name": "Natural Stone",
+      "category": "stone",
+      "color": [
+        0.66,
+        0.6,
+        0.52,
+        1
+      ],
+      "roughness": 0.85,
+      "metalness": 0.0,
+      "finish": "split-face / roughly dressed",
+      "pattern": {
+        "type": "noise",
+        "scale": 1.6,
+        "strength": 0.35
+      },
+      "typical_use": [
+        "exterior_wall",
+        "landscape_wall"
+      ]
+    },
+    "interior_wall": {
+      "id": "lime_plaster",
+      "name": "Lime Plaster",
+      "category": "plaster",
+      "color": [
+        0.94,
+        0.91,
+        0.85,
+        1
+      ],
+      "roughness": 0.9,
+      "metalness": 0.0,
+      "finish": "hand-troweled, soft variation",
+      "pattern": {
+        "type": "noise",
+        "scale": 1.8,
+        "strength": 0.1
+      },
+      "typical_use": [
+        "interior_wall",
+        "ceiling"
+      ]
+    },
+    "floor": {
+      "id": "limestone",
+      "name": "Limestone",
+      "category": "stone",
+      "color": [
+        0.84,
+        0.8,
+        0.72,
+        1
+      ],
+      "roughness": 0.7,
+      "metalness": 0.0,
+      "finish": "honed, warm ivory",
+      "pattern": {
+        "type": "noise",
+        "scale": 3.0,
+        "strength": 0.12
+      },
+      "typical_use": [
+        "floor",
+        "exterior_wall"
+      ]
+    },
+    "roof": {
+      "id": "standing_seam_metal",
+      "name": "Standing Seam Metal",
+      "category": "metal",
+      "color": [
+        0.23,
+        0.25,
+        0.27,
+        1
+      ],
+      "roughness": 0.45,
+      "metalness": 0.85,
+      "finish": "matte zinc / charcoal",
+      "pattern": {
+        "type": "standing_seam",
+        "seam_spacing_m": 0.45,
+        "seam_height_m": 0.025,
+        "orientation": "vertical"
+      },
+      "typical_use": [
+        "roof",
+        "exterior_wall"
+      ]
+    },
+    "courtyard": {
+      "id": "courtyard_green",
+      "name": "Courtyard Planting / Gravel",
+      "category": "landscape",
+      "color": [
+        0.45,
+        0.62,
+        0.38,
+        1
+      ],
+      "roughness": 1.0,
+      "metalness": 0.0,
+      "finish": "planting and gravel (concept)",
+      "pattern": {
+        "type": "noise",
+        "scale": 4.0,
+        "strength": 0.4
+      },
+      "typical_use": [
+        "courtyard",
+        "landscape"
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "furniture-bedroom-3-bed",
+      "name": "Bed",
+      "space_id": "bedroom-3",
+      "level": "ground",
+      "rect": {
+        "x": 6.573996,
+        "y": 9.156801,
+        "w": 1.5,
+        "d": 2.0
+      },
+      "height": 0.55,
+      "clearance": 0.45,
+      "required": false
+    },
+    {
+      "id": "furniture-bedroom-1-bed",
+      "name": "Bed",
+      "space_id": "bedroom-1",
+      "level": "ground",
+      "rect": {
+        "x": 11.814972,
+        "y": 9.156801,
+        "w": 1.5,
+        "d": 2.0
+      },
+      "height": 0.55,
+      "clearance": 0.45,
+      "required": false
+    },
+    {
+      "id": "furniture-bedroom-2-bed",
+      "name": "Bed",
+      "space_id": "bedroom-2",
+      "level": "ground",
+      "rect": {
+        "x": 15.644916,
+        "y": 9.156801,
+        "w": 1.5,
+        "d": 2.0
+      },
+      "height": 0.55,
+      "clearance": 0.45,
+      "required": false
+    },
+    {
+      "id": "furniture-kitchen-counter",
+      "name": "Kitchen counter",
+      "space_id": "kitchen",
+      "level": "ground",
+      "rect": {
+        "x": 5.21454,
+        "y": 22.493199,
+        "w": 1.8,
+        "d": 0.6
+      },
+      "height": 0.9,
+      "clearance": 0.45,
+      "required": false
+    },
+    {
+      "id": "furniture-living-sofa",
+      "name": "Sofa",
+      "space_id": "living",
+      "level": "ground",
+      "rect": {
+        "x": 11.111821,
+        "y": 22.343199,
+        "w": 2.1,
+        "d": 0.9
+      },
+      "height": 0.8,
+      "clearance": 0.6,
+      "required": false
+    }
+  ],
+  "landscape": [
+    {
+      "id": "tree-courtyard",
+      "kind": "tree",
+      "center": [
+        10.6500005,
+        16.75,
+        0.0
+      ],
+      "radius": 1.0550088000000002,
+      "height": 3.0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 520" width="1050" height="520" font-family="Arial,sans-serif">
+<rect width="1050" height="520" fill="#faf8f3"/>
+<text x="28" y="34" font-size="19" fill="#1a2332" font-weight="bold">Courtyard Residence — Section A–A′</text>
+<text x="28" y="55" font-size="11" fill="#596371">Actual cut: Y = 16.75 m · X horizontal / Z vertical</text>
+<rect data-source="D-5af024d43322" x="775.6931614978647" y="273.13347981181926" width="2.1469258068734236" height="126.13189115381363" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="W-3fbd13097563" x="81.94902822422466" y="350.95954031098086" width="16.101943551550676" height="48.30583065465203" fill="#303b44" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="W-3fbd13097563" x="81.94902822422466" y="206.04204834702475" width="16.101943551550676" height="75.14240324056982" fill="#303b44" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="WIN-8e36ce2c9789" x="88.7923542336337" y="281.1844515875946" width="2.4152915327326014" height="69.77508872338626" fill="#96b5c5" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="WIN-8e36ce2c9789" x="81.00974818371753" y="281.1844515875946" width="17.98050363256492" height="2.6836572585917793" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="WIN-8e36ce2c9789" x="81.00974818371753" y="348.2758830523891" width="17.98050363256492" height="2.6836572585917793" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="W-9c931e1cdbe0" x="321.83395836829084" y="206.04204834702475" width="10.734629034367117" height="64.40777420620272" fill="#303b44" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="D-b918bc312454" x="325.99362711910806" y="270.4498225532275" width="2.4152915327326014" height="128.8155484124054" fill="#96b5c5" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="D-b918bc312454" x="320.8946783277837" y="270.4498225532275" width="12.613189115381363" height="2.6836572585917793" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="W-82269338388d" x="647.4313589241971" y="206.04204834702475" width="10.734629034367117" height="64.40777420620272" fill="#303b44" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="W-82269338388d" x="647.4313589241971" y="270.4498225532275" width="10.734629034367117" height="128.8155484124054" fill="#303b44" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="W-81ad842c7caf" x="707.813647242512" y="206.04204834702475" width="8.050971775775338" height="64.40777420620272" fill="#303b44" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="W-81ad842c7caf" x="707.813647242512" y="270.4498225532275" width="8.050971775775338" height="128.8155484124054" fill="#303b44" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="W-14fe234c85d4" x="881.9489745510798" y="350.95954031098086" width="16.101943551550676" height="48.30583065465203" fill="#303b44" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="W-14fe234c85d4" x="881.9489745510798" y="206.04204834702475" width="16.101943551550676" height="75.14240324056982" fill="#303b44" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="W-14fe234c85d4" x="881.9489745510798" y="281.1844515875946" width="16.101943551550676" height="69.77508872338628" fill="#303b44" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="slab-dining" x="90.0" y="399.2653709656329" width="237.20127288547434" height="9.661166130930406" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="roof-dining" x="90.0" y="197.45434511953107" width="237.20127288547434" height="8.587703227493694" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-dining" x="113.34781814974849" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-dining" x="137.50073347707453" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-dining" x="161.65364880440055" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-dining" x="185.8065641317266" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-dining" x="209.9594794590526" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-dining" x="234.11239478637862" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-dining" x="258.2653101137047" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-dining" x="282.4182254410307" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-dining" x="306.5711407683567" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="parapet-dining" x="86.77961128968987" y="173.30142979220506" width="6.44077742062027" height="24.152915327326014" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="slab-study" x="711.8391331303997" y="399.2653709656329" width="178.1608131964552" height="9.661166130930406" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="roof-study" x="711.8391331303997" y="197.45434511953107" width="178.1608131964552" height="8.587703227493694" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-study" x="735.1869512801482" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-study" x="759.339866607474" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-study" x="783.4927819348001" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-study" x="807.6456972621261" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-study" x="831.798612589452" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-study" x="855.951527916778" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-study" x="880.104443244104" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="parapet-study" x="886.7795576165449" y="173.30142979220506" width="6.44077742062027" height="24.152915327326014" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="slab-gallery-study" x="652.7986734413805" y="399.2653709656329" width="59.04045968901915" height="9.661166130930406" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="roof-gallery-study" x="652.7986734413805" y="197.45434511953107" width="59.04045968901915" height="8.587703227493694" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-gallery-study" x="676.1464915911289" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="seam-gallery-study" x="700.2994069184549" y="196.11251649023515" width="1.6101943551550675" height="1.3418286292958896" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<rect data-source="slab-courtyard" x="327.20127288547434" y="399.2653709656329" width="325.59740055590623" height="9.661166130930406" fill="#bfaa8a" stroke="#1a2332" stroke-width=".5"/>
+<text x="208.60063644273717" y="385.847084672674" text-anchor="middle" font-size="9">Dining</text>
+<text x="800.9195397286273" y="385.847084672674" text-anchor="middle" font-size="9">Study</text>
+<text x="682.3189032858901" y="385.847084672674" text-anchor="middle" font-size="9">Gallery · Study</text>
+<text x="489.99997316342746" y="385.847084672674" text-anchor="middle" font-size="9">Internal Courtyard · open to sky</text>
+<text x="905.0" y="399.2653709656329" font-size="10">ground 0.00 m</text>
+<line x1="28" y1="469" x2="1022" y2="469" stroke="#aaa"/>
+<text x="28" y="487" font-size="10" fill="#a35529">CONCEPT DESIGN — NOT FOR CONSTRUCTION · Licensed professional review required · 2026-10-16</text>
+<text x="28" y="504" font-size="9" fill="#1a2332">Dimensions in metres from model geometry · Scale bar governs; scaling changes with print size</text></svg>

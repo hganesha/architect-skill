@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "fail": [],
+  "warn": [
+    "kitchen: area 22.1 m² vs target 16.0 m² (38% deviation)",
+    "living: area 66.4 m² vs target 48.0 m² (38% deviation)",
+    "foyer: narrow dimension 2.40 m (< 2.4 m concept target)",
+    "foyer: no exterior/courtyard glazing or skylight (daylight proxy)",
+    "gallery-bedroom-3: potential circulation dead end over 3 m (concept proxy)"
+  ],
+  "ok": [
+    "20 spaces, 56 walls, 52 openings"
+  ],
+  "metrics": {
+    "enclosed_area_m2": 245.7,
+    "circulation_area_m2": 24.02,
+    "footprint_m2": 277.7,
+    "adjacency_realized": 4,
+    "adjacency_requested": 4,
+    "daylit_rooms": 8,
+    "habitable_rooms": 9,
+    "area_deviation_mean": 0.1843,
+    "reachable_spaces": 20
+  },
+  "constraints": [
+    {
+      "type": "daylight",
+      "spaces": [],
+      "target": "living",
+      "required": false,
+      "met": true
+    },
+    {
+      "type": "adjacency",
+      "spaces": [
+        "living",
+        "courtyard"
+      ],
+      "target": null,
+      "required": true,
+      "met": true
+    }
+  ],
+  "disclaimer": "Concept design only — requires licensed professional review. Not for construction."
+}

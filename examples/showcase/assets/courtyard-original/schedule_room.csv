@@ -1,0 +1,21 @@
+id,name,level,zone,area_m2,area_ft2,target_m2,ceiling_m,floor_material,wall_material
+kitchen,Kitchen,ground,service,22.1195,238,16.0,3.6,Quartz (Engineered Stone),Lime Plaster
+living,Living Room,ground,public,66.3584,714,48.0,3.6,Limestone,Wood Slat Screen
+utility,Utility,ground,service,9.238,99,8.0,3.6,Limestone,Lime Plaster
+gallery-utility,Gallery · Utility,ground,circulation,1.8217,20,1.82172621975781,3.6,Limestone,Lime Plaster
+bedroom-2,Bedroom 2,ground,private,21.0783,227,18.0,3.6,Limestone,Lime Plaster
+gallery-bedroom-2,Gallery · Bedroom 2,ground,circulation,4.1566,45,4.1566147549403585,3.6,Limestone,Lime Plaster
+bedroom-1,Bedroom 1,ground,private,23.4203,252,20.0,3.6,Limestone,Lime Plaster
+gallery-bedroom-1,Gallery · Bedroom 1,ground,circulation,4.6185,50,4.618460838822623,3.6,Limestone,Lime Plaster
+bath-1,Bath 1,ground,service,9.3681,101,8.0,3.6,Marble,Quartz (Engineered Stone)
+gallery-bath-1,Gallery · Bath 1,ground,circulation,1.8474,20,1.8473843355290482,3.6,Limestone,Lime Plaster
+bath-2,Bath 2,ground,service,8.1971,88,7.0,3.6,Marble,Quartz (Engineered Stone)
+gallery-bath-2,Gallery · Bath 2,ground,circulation,1.6165,17,1.6164612935879177,3.6,Limestone,Lime Plaster
+bedroom-3,Bedroom 3,ground,private,21.0783,227,18.0,3.6,Limestone,Lime Plaster
+gallery-bedroom-3,Gallery · Bedroom 3,ground,circulation,4.1566,45,4.156614754940359,3.6,Limestone,Lime Plaster
+dining,Dining,ground,public,23.3124,251,24.0,3.6,Limestone,Lime Plaster
+foyer,Foyer,ground,public,7.959,86,10.0,3.6,Limestone,Lime Plaster
+gallery-foyer,Gallery · Foyer,ground,circulation,2.6375,28,2.6375218935831484,3.6,Limestone,Lime Plaster
+study,Study,ground,private,9.5508,103,12.0,3.6,Limestone,Lime Plaster
+gallery-study,Gallery · Study,ground,circulation,3.165,34,3.165026272299779,3.6,Limestone,Lime Plaster
+courtyard,Internal Courtyard,ground,outdoor,32.0,344,32.0,3.6,Limestone,Lime Plaster

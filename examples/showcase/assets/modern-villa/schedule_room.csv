@@ -1,0 +1,27 @@
+id,name,level,zone,area_m2,area_ft2,target_m2,ceiling_m,floor_material,wall_material
+living,Living (double height),ground,public,74.5781,803,44.0,6.6,Maple,Wood Slat Screen
+bath-g,Bath (ground),ground,service,9.3932,101,7.0,3.4,Marble,Marble
+gallery-bath-g,Gallery · Bath (ground),ground,circulation,2.2078,24,2.2077975394742704,3.4,Maple,Lime Plaster
+dining,Dining,ground,public,36.4604,392,22.0,3.4,Maple,Lime Plaster
+guest,Guest Room,ground,private,21.4703,231,16.0,3.4,Maple,Lime Plaster
+gallery-guest,Gallery · Guest Room,ground,circulation,5.0464,54,5.046394375941189,3.4,Maple,Lime Plaster
+kitchen,Kitchen,ground,service,17.4719,188,15.0,3.4,Quartz (Engineered Stone),Stainless Steel
+stair,Staircase,ground,circulation,10.964,118,10.0,3.4,Maple,Lime Plaster
+gallery-stair-0,Stair approach,ground,circulation,6.5079,70,6.507900483692116,3.4,Maple,Lime Plaster
+courtyard,Courtyard,ground,outdoor,24.0,258,24.0,3.4,Maple,Lime Plaster
+primary,Bedroom,upper,private,19.1465,206,26.0,3.2,Maple,Lime Plaster
+gallery-primary,Gallery · Bedroom,upper,circulation,4.5002,48,4.500214496837799,3.2,Maple,Lime Plaster
+family,Family Lounge,upper,public,14.7281,159,20.0,3.2,Maple,Lime Plaster
+gallery-family,Gallery · Family Lounge,upper,circulation,3.4617,37,3.4617034591059985,3.2,Maple,Lime Plaster
+bedroom-2,Bedroom 2,upper,private,13.2553,143,18.0,3.2,Maple,Lime Plaster
+gallery-bedroom-2,Gallery · Bedroom 2,upper,circulation,3.1155,34,3.1155331131953994,3.2,Maple,Lime Plaster
+bedroom-3,Bedroom 3,upper,private,13.2553,143,18.0,3.2,Maple,Lime Plaster
+gallery-bedroom-3,Gallery · Bedroom 3,upper,circulation,3.1155,34,3.1155331131953994,3.2,Maple,Lime Plaster
+bath-u1,Bath (upper 1),upper,service,5.0348,54,8.0,3.2,Marble,Marble
+gallery-bath-u1,Gallery · Bath (upper 1),upper,circulation,2.2437,24,2.2437485819558924,3.2,Maple,Lime Plaster
+bath-u2,Bath (upper 2),upper,service,4.4055,47,7.0,3.2,Marble,Marble
+gallery-bath-u2,Gallery · Bath (upper 2),upper,circulation,1.9633,21,1.963280009211406,3.2,Maple,Lime Plaster
+gallery-upper-region-1,Void-side gallery,upper,circulation,3.8246,41,3.8245714465157254,3.2,Maple,Lime Plaster
+gallery-upper-region-2,Void-side gallery,upper,circulation,1.4246,15,1.424571446515719,3.2,Maple,Lime Plaster
+gallery-upper-region-4,Void-side gallery,upper,circulation,5.0833,55,5.083329633173882,3.2,Maple,Lime Plaster
+landing-stair,Stair landing,upper,circulation,2.4,26,2.4,3.2,Maple,Lime Plaster

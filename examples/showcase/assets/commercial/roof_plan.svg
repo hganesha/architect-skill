@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" font-family="Arial,sans-serif">
+<rect width="1200" height="900" fill="#faf8f3"/>
+<text x="28" y="34" font-size="19" fill="#1a2332" font-weight="bold">Neighbourhood Retail + Studio — Roof plan</text>
+<text x="28" y="55" font-size="11" fill="#596371">Actual roof surfaces and hosted skylight apertures</text>
+<rect x="110.000" y="543.767" width="472.000" height="176.233" fill="#ded4c3" stroke="#1a2332" stroke-width="1"/>
+<rect x="110.000" y="510.247" width="472.000" height="33.520" fill="#ded4c3" stroke="#1a2332" stroke-width="1"/>
+<rect x="110.000" y="130.000" width="223.579" height="209.753" fill="#ded4c3" stroke="#1a2332" stroke-width="1"/>
+<rect x="333.579" y="130.000" width="49.684" height="176.233" fill="#ded4c3" stroke="#1a2332" stroke-width="1"/>
+<rect x="333.579" y="306.233" width="49.684" height="33.520" fill="#ded4c3" stroke="#1a2332" stroke-width="1"/>
+<rect x="383.263" y="130.000" width="198.737" height="176.233" fill="#ded4c3" stroke="#1a2332" stroke-width="1"/>
+<rect x="383.263" y="306.233" width="198.737" height="33.520" fill="#ded4c3" stroke="#1a2332" stroke-width="1"/>
+<rect x="110.000" y="339.753" width="104.446" height="170.495" fill="#ded4c3" stroke="#1a2332" stroke-width="1"/>
+<rect x="214.446" y="339.753" width="33.520" height="170.495" fill="#ded4c3" stroke="#1a2332" stroke-width="1"/>
+<rect x="477.554" y="339.753" width="104.446" height="170.495" fill="#ded4c3" stroke="#1a2332" stroke-width="1"/>
+<rect x="444.035" y="339.753" width="33.520" height="170.495" fill="#ded4c3" stroke="#1a2332" stroke-width="1"/>
+<rect x="247.965" y="339.753" width="196.069" height="170.495" fill="#cbded2" stroke="#1a2332" stroke-width="1"/>
+<text x="28" y="820" font-size="10">Green: open courtyard · Blue: roof glazing</text>
+<line x1="28" y1="849" x2="1172" y2="849" stroke="#aaa"/>
+<text x="28" y="867" font-size="10" fill="#a35529">CONCEPT DESIGN — NOT FOR CONSTRUCTION · Licensed professional review required · 2026-10-16</text>
+<text x="28" y="884" font-size="9" fill="#1a2332">Dimensions in metres from model geometry · Scale bar governs; scaling changes with print size</text></svg>

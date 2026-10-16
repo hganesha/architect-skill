@@ -1,0 +1,181 @@
+{
+  "building": {
+    "name": "Modern Villa (two-storey)",
+    "style": "contemporary-tropical",
+    "units": "meters"
+  },
+  "site": {
+    "width": 18,
+    "depth": 28,
+    "entrance": "south",
+    "hemisphere": "north",
+    "setbacks": {
+      "east": 1.8,
+      "west": 1.8,
+      "north": 2.2,
+      "south": 2.2
+    }
+  },
+  "levels": [
+    {
+      "id": "ground",
+      "elevation": 0,
+      "height": 3.4
+    },
+    {
+      "id": "upper",
+      "elevation": 3.4,
+      "height": 3.2
+    }
+  ],
+  "spaces": [
+    {
+      "id": "courtyard",
+      "name": "Courtyard",
+      "type": "courtyard",
+      "zone": "outdoor",
+      "target_area": 24,
+      "open_to_sky": true,
+      "level": "ground"
+    },
+    {
+      "id": "living",
+      "name": "Living (double height)",
+      "type": "room",
+      "zone": "public",
+      "target_area": 44,
+      "double_height": true,
+      "level": "ground",
+      "adjacent_to": [
+        "courtyard",
+        "dining"
+      ],
+      "materials": {
+        "wall": "wood_slat",
+        "floor": "maple"
+      },
+      "open_plan_group": "day-spaces"
+    },
+    {
+      "id": "dining",
+      "name": "Dining",
+      "type": "room",
+      "zone": "public",
+      "target_area": 22,
+      "level": "ground",
+      "open_plan_group": "day-spaces"
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "type": "kitchen",
+      "zone": "service",
+      "target_area": 15,
+      "level": "ground",
+      "materials": {
+        "floor": "quartz",
+        "wall": "stainless_steel"
+      },
+      "open_plan_group": "day-spaces"
+    },
+    {
+      "id": "guest",
+      "name": "Guest Room",
+      "type": "room",
+      "zone": "private",
+      "target_area": 16,
+      "level": "ground"
+    },
+    {
+      "id": "stair",
+      "name": "Staircase",
+      "type": "stair",
+      "zone": "circulation",
+      "target_area": 10,
+      "level": "ground",
+      "near": "courtyard",
+      "materials": {
+        "floor": "maple"
+      }
+    },
+    {
+      "id": "bath-g",
+      "name": "Bath (ground)",
+      "type": "bath",
+      "zone": "service",
+      "target_area": 7,
+      "level": "ground",
+      "materials": {
+        "floor": "marble",
+        "wall": "marble"
+      }
+    },
+    {
+      "id": "primary",
+      "name": "Bedroom",
+      "type": "room",
+      "zone": "private",
+      "target_area": 26,
+      "level": "upper"
+    },
+    {
+      "id": "bedroom-2",
+      "name": "Bedroom 2",
+      "type": "room",
+      "zone": "private",
+      "target_area": 18,
+      "level": "upper"
+    },
+    {
+      "id": "bedroom-3",
+      "name": "Bedroom 3",
+      "type": "room",
+      "zone": "private",
+      "target_area": 18,
+      "level": "upper"
+    },
+    {
+      "id": "family",
+      "name": "Family Lounge",
+      "type": "room",
+      "zone": "public",
+      "target_area": 20,
+      "level": "upper"
+    },
+    {
+      "id": "bath-u1",
+      "name": "Bath (upper 1)",
+      "type": "bath",
+      "zone": "service",
+      "target_area": 8,
+      "level": "upper",
+      "materials": {
+        "floor": "marble",
+        "wall": "marble"
+      }
+    },
+    {
+      "id": "bath-u2",
+      "name": "Bath (upper 2)",
+      "type": "bath",
+      "zone": "service",
+      "target_area": 7,
+      "level": "upper",
+      "materials": {
+        "floor": "marble",
+        "wall": "marble"
+      }
+    }
+  ],
+  "materials": {
+    "exterior": "stucco",
+    "interior": "lime_plaster",
+    "flooring": "maple",
+    "roof": "standing_seam_metal"
+  },
+  "planning": {
+    "circulation_width": 1.1,
+    "furnish": true,
+    "landscape": true
+  }
+}

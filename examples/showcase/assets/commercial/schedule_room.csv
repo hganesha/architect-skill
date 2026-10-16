@@ -1,0 +1,13 @@
+id,name,level,zone,area_m2,area_ft2,target_m2,ceiling_m,floor_material,wall_material
+retail,Retail,ground,public,89.58,964,70.0,4.2,Polished Concrete,Stucco
+gallery-retail,Gallery · Retail,ground,circulation,17.0383,183,17.038286298803648,4.2,Polished Concrete,Stucco
+cafe,Café,ground,public,50.5034,544,45.0,4.2,Terracotta,Stucco
+wc,WC Core,ground,service,9.4295,101,10.0,4.2,Polished Concrete,Stucco
+gallery-wc,Gallery · WC Core,ground,circulation,1.7935,19,1.7935038209267002,4.2,Polished Concrete,Stucco
+studio,Studio,ground,private,37.7179,406,40.0,4.2,Polished Concrete,Stucco
+gallery-studio,Gallery · Studio,ground,circulation,7.174,77,7.174015283706799,4.2,Polished Concrete,Stucco
+storage,Storage,ground,service,19.1772,206,20.0,4.2,Polished Concrete,Stucco
+gallery-storage,Gallery · Storage,ground,circulation,6.1545,66,6.15453173438607,4.2,Polished Concrete,Stucco
+kitchen,Prep Kitchen,ground,service,19.1772,206,18.0,4.2,Quartz (Engineered Stone),Stainless Steel
+gallery-kitchen,Gallery · Prep Kitchen,ground,circulation,6.1545,66,6.15453173438607,4.2,Polished Concrete,Stucco
+courtyard,Shared Court,ground,outdoor,36.0,388,36.0,4.2,Polished Concrete,Stucco

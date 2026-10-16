@@ -1,0 +1,17 @@
+id,kind,host,width_m,height_m,sill_m,space
+WIN-a1b48e06741e,window,W-4e16594d8ce7,1.2,1.3,0.9,retail
+WIN-c59ab5fd0498,window,W-4e16594d8ce7,1.2,1.3,0.9,retail
+WIN-f46b67db9c40,window,W-4e16594d8ce7,1.2,1.3,0.9,retail
+WIN-5de3f90d20ec,window,W-4e16594d8ce7,1.2,1.3,0.9,retail
+WIN-bd11c5206531,window,W-6a10605414e1,1.2,1.3,0.9,cafe
+WIN-db487f180bf7,window,W-6a10605414e1,1.2,1.3,0.9,cafe
+WIN-93597d3d3c62,window,W-5451a067595b,0.75,0.8,1.4,wc
+WIN-6b313e6b65b0,window,W-3ddc66c885ba,1.2,1.3,0.9,studio
+WIN-8977b91f96e6,window,W-3ddc66c885ba,1.2,1.3,0.9,studio
+WIN-31652375ab78,window,W-fada4c001557,1.2,1.3,0.9,retail
+WIN-f543c08ed4a4,window,W-b1660c7f2991,1.2,1.3,0.9,storage
+WIN-3a7f6fb732de,window,W-0a0d361ab02f,1.2,1.3,0.9,cafe
+WIN-26bafc34492d,window,W-0a0d361ab02f,1.2,1.3,0.9,cafe
+WIN-5604bd4c2cd9,window,W-c8cf5dce5b13,1.2,1.3,0.9,retail
+WIN-29d154ff910c,window,W-80f0de844ffc,1.2,1.3,0.9,kitchen
+WIN-2ab7af6a8338,window,W-be52cbbde478,1.2,1.3,0.9,studio
