@@ -1,0 +1,559 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BuildingSpec \u2014 declarative design intent (input)",
+  "type": "object",
+  "required": [
+    "building",
+    "site",
+    "levels",
+    "spaces"
+  ],
+  "properties": {
+    "building": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "style": {
+          "type": "string",
+          "examples": [
+            "contemporary-tropical",
+            "japanese-minimal"
+          ]
+        },
+        "units": {
+          "enum": [
+            "meters",
+            "feet"
+          ],
+          "default": "meters"
+        },
+        "input_units": {
+          "enum": [
+            "meters",
+            "feet"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "site": {
+      "type": "object",
+      "required": [
+        "width",
+        "depth"
+      ],
+      "properties": {
+        "width": {
+          "type": "number",
+          "description": "metres, east-west",
+          "exclusiveMinimum": 0
+        },
+        "depth": {
+          "type": "number",
+          "description": "metres, north-south",
+          "exclusiveMinimum": 0
+        },
+        "entrance": {
+          "enum": [
+            "east",
+            "west",
+            "north",
+            "south"
+          ],
+          "default": "south"
+        },
+        "hemisphere": {
+          "enum": [
+            "north",
+            "south"
+          ],
+          "default": "north"
+        },
+        "setbacks": {
+          "type": "object",
+          "properties": {
+            "east": {
+              "type": "number",
+              "minimum": 0
+            },
+            "west": {
+              "type": "number",
+              "minimum": 0
+            },
+            "north": {
+              "type": "number",
+              "minimum": 0
+            },
+            "south": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "levels": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "height"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_-]+$"
+          },
+          "elevation": {
+            "type": "number",
+            "default": 0
+          },
+          "height": {
+            "type": "number",
+            "description": "floor-to-floor / ceiling height m",
+            "exclusiveMinimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "spaces": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "target_area"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_-]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "room",
+              "courtyard",
+              "terrace",
+              "stair",
+              "bath",
+              "kitchen",
+              "circulation"
+            ]
+          },
+          "zone": {
+            "enum": [
+              "public",
+              "private",
+              "service",
+              "circulation",
+              "outdoor"
+            ]
+          },
+          "level": {
+            "type": "string",
+            "default": "ground"
+          },
+          "target_area": {
+            "type": "number",
+            "description": "m\u00b2",
+            "exclusiveMinimum": 0
+          },
+          "adjacent_to": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "near": {
+            "type": "string",
+            "description": "solver hint: place near this space (used by modify)"
+          },
+          "double_height": {
+            "type": "boolean",
+            "default": false
+          },
+          "open_to_sky": {
+            "type": "boolean",
+            "default": false
+          },
+          "skylight": {
+            "type": "boolean",
+            "default": false
+          },
+          "requires_exterior_wall": {
+            "type": "boolean",
+            "default": false
+          },
+          "materials": {
+            "type": "object",
+            "properties": {
+              "floor": {
+                "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object"
+                  }
+                ]
+              },
+              "wall": {
+                "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object"
+                  }
+                ]
+              }
+            },
+            "additionalProperties": {
+              "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object"
+                }
+              ]
+            },
+            "description": "Per-space material overrides, e.g. {\"floor\":\"marble\",\"wall\":\"wood_slat\"}"
+          },
+          "ceiling_height": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "min_width": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Minimum shorter plan dimension; hard constraint."
+          },
+          "min_depth": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Minimum longer plan dimension; hard constraint."
+          },
+          "open_plan_group": {
+            "type": "string",
+            "minLength": 1
+          },
+          "max_area_deviation": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Hard maximum fractional deviation, e.g. 0.25."
+          },
+          "furniture": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "width",
+                "depth"
+              ],
+              "properties": {
+                "x": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "y": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "clearance": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "width": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "depth": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "height": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "required": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "aspect_ratio": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Courtyard width/depth ratio; overrides variant aspect."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "daylight",
+              "adjacency",
+              "skylight",
+              "privacy",
+              "max_footprint",
+              "wet_grouping",
+              "wet_stacking"
+            ]
+          },
+          "target": {
+            "type": "string"
+          },
+          "spaces": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "priority": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "value": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "materials": {
+      "type": "object",
+      "description": "Building-level materials by surface; values are material primitives (catalog id / alias / override)",
+      "properties": {
+        "exterior": {
+          "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object"
+            }
+          ]
+        },
+        "interior": {
+          "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object"
+            }
+          ]
+        },
+        "flooring": {
+          "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object"
+            }
+          ]
+        },
+        "roof": {
+          "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object"
+            }
+          ]
+        },
+        "courtyard": {
+          "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "object"
+            }
+          ]
+        }
+      },
+      "additionalProperties": {
+        "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "object"
+          }
+        ]
+      }
+    },
+    "planning": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "circulation_width": {
+          "type": "number",
+          "minimum": 0.9
+        },
+        "furnish": {
+          "type": "boolean"
+        },
+        "landscape": {
+          "type": "boolean"
+        }
+      }
+    },
+    "roof": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "form": {
+          "enum": [
+            "flat",
+            "flat with parapet"
+          ]
+        }
+      }
+    },
+    "drawing": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "section": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "axis": {
+              "enum": [
+                "x",
+                "y"
+              ]
+            },
+            "position": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "render": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cameras": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "exterior": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "position": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 3,
+                  "maxItems": 3
+                },
+                "target": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 3,
+                  "maxItems": 3
+                },
+                "lens": {
+                  "type": "number",
+                  "minimum": 10,
+                  "maximum": 150
+                }
+              }
+            },
+            "interior": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "position": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 3,
+                  "maxItems": 3
+                },
+                "target": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 3,
+                  "maxItems": 3
+                },
+                "lens": {
+                  "type": "number",
+                  "minimum": 10,
+                  "maximum": 150
+                }
+              }
+            }
+          }
+        },
+        "room": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

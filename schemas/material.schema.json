@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MaterialPrimitive \u2014 one entry of materials/catalog.json",
+  "type": "object",
+  "required": [
+    "name",
+    "category",
+    "color",
+    "roughness",
+    "metalness",
+    "pattern"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "metal",
+        "wood",
+        "wood_screen",
+        "stone",
+        "plaster",
+        "mineral",
+        "ceramic",
+        "masonry",
+        "glass",
+        "landscape",
+        "generic"
+      ]
+    },
+    "color": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "sRGB base colour RGBA (concept visualisation)"
+    },
+    "roughness": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "metalness": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "finish": {
+      "type": "string"
+    },
+    "pattern": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "flat",
+            "noise",
+            "grain",
+            "veined",
+            "speckle",
+            "brushed",
+            "brick",
+            "standing_seam",
+            "slat"
+          ]
+        },
+        "seam_spacing_m": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "seam_height_m": {
+          "type": "number",
+          "minimum": 0
+        },
+        "slat_width_m": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "gap_m": {
+          "type": "number",
+          "minimum": 0
+        },
+        "slat_depth_m": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "plank_width_m": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "scale": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "strength": {
+          "type": "number",
+          "minimum": 0
+        },
+        "orientation": {
+          "type": "string"
+        }
+      }
+    },
+    "typical_use": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "e.g. pipe_wood -> pine_wood"
+    }
+  }
+}

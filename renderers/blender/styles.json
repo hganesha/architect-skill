@@ -1,0 +1,7 @@
+{
+  "clay": {"samples":64,"world":[0.8,0.85,0.9],"world_strength":0.6,"sun_energy":2,"sun_altitude":45,"sun_azimuth":135,"clay":true,"bevel":0.012,"exposure":0},
+  "editorial": {"samples":128,"world":[0.75,0.82,0.9],"world_strength":0.5,"sun_energy":2.5,"sun_altitude":40,"sun_azimuth":135,"saturation":0.55,"bevel":0.01,"exposure":0},
+  "daylight": {"samples":256,"world":[0.65,0.78,1.0],"world_strength":0.45,"sun_energy":3,"sun_altitude":48,"sun_azimuth":135,"bevel":0.01,"exposure":0.3},
+  "cinematic": {"samples":256,"world":[0.3,0.4,0.6],"world_strength":0.2,"sun_energy":1.5,"sun_altitude":12,"sun_azimuth":110,"interior_lights":true,"bevel":0.01,"exposure":0.6},
+  "night": {"samples":256,"world":[0.025,0.04,0.09],"world_strength":0.12,"sun_energy":0.08,"sun_altitude":25,"sun_azimuth":135,"interior_lights":true,"bevel":0.01,"exposure":1.1}
+}

@@ -1,0 +1,133 @@
+{
+  "_note": "Material primitives. Each entry is a parametric primitive, not just a colour: category + PBR values + a pattern behaviour consumed by the GLB exporter (geometry), the WebGL viewer (colour) and Blender (procedural nodes). Colours are sRGB base-colour approximations for concept visualisation.",
+  "standing_seam_metal": {
+    "name": "Standing Seam Metal", "category": "metal", "color": [0.23, 0.25, 0.27, 1],
+    "roughness": 0.45, "metalness": 0.85, "finish": "matte zinc / charcoal",
+    "pattern": {"type": "standing_seam", "seam_spacing_m": 0.45, "seam_height_m": 0.025, "orientation": "vertical"},
+    "typical_use": ["roof", "exterior_wall"], "aliases": ["metal_roof", "zinc_roof", "standing-seam"]
+  },
+  "pine_wood": {
+    "name": "Pine Wood", "category": "wood", "color": [0.85, 0.68, 0.45, 1],
+    "roughness": 0.7, "metalness": 0.0, "finish": "clear matte, visible soft grain",
+    "pattern": {"type": "grain", "plank_width_m": 0.14, "orientation": "along_length"},
+    "typical_use": ["floor", "interior_wall", "ceiling", "joinery"], "aliases": ["pipe_wood", "pine", "softwood"]
+  },
+  "stucco": {
+    "name": "Stucco", "category": "plaster", "color": [0.93, 0.90, 0.84, 1],
+    "roughness": 0.95, "metalness": 0.0, "finish": "fine sand texture",
+    "pattern": {"type": "noise", "scale": 2.5, "strength": 0.15},
+    "typical_use": ["exterior_wall", "interior_wall"], "aliases": ["render", "plaster_exterior"]
+  },
+  "wood_slat": {
+    "name": "Wood Slat Screen", "category": "wood_screen", "color": [0.62, 0.42, 0.24, 1],
+    "roughness": 0.65, "metalness": 0.0, "finish": "oiled timber battens with shadow gaps",
+    "pattern": {"type": "slat", "slat_width_m": 0.09, "gap_m": 0.02, "slat_depth_m": 0.04, "orientation": "vertical"},
+    "typical_use": ["exterior_wall", "feature_wall", "screen", "ceiling"], "aliases": ["slat", "timber_slat", "batten_screen", "slatted_wood"]
+  },
+  "marble": {
+    "name": "Marble", "category": "stone", "color": [0.94, 0.93, 0.91, 1],
+    "roughness": 0.18, "metalness": 0.0, "finish": "polished, grey-gold veining",
+    "pattern": {"type": "veined", "vein_color": [0.45, 0.44, 0.42, 1], "vein_scale": 3.0, "vein_strength": 0.55},
+    "typical_use": ["floor", "bath_wall", "counter"], "aliases": ["carrara", "white_marble"]
+  },
+  "quartz": {
+    "name": "Quartz (Engineered Stone)", "category": "stone", "color": [0.88, 0.87, 0.85, 1],
+    "roughness": 0.3, "metalness": 0.0, "finish": "honed, fine aggregate speckle",
+    "pattern": {"type": "speckle", "scale": 8.0, "strength": 0.2},
+    "typical_use": ["counter", "floor", "bath_wall"], "aliases": ["engineered_quartz", "quartz_stone"]
+  },
+  "stainless_steel": {
+    "name": "Stainless Steel", "category": "metal", "color": [0.75, 0.77, 0.79, 1],
+    "roughness": 0.32, "metalness": 1.0, "finish": "brushed, hairline grain",
+    "pattern": {"type": "brushed", "orientation": "along_length"},
+    "typical_use": ["counter", "fixture", "cladding", "appliance"], "aliases": ["stainless", "brushed_steel", "inox"]
+  },
+  "maple": {
+    "name": "Maple", "category": "wood", "color": [0.88, 0.74, 0.55, 1],
+    "roughness": 0.55, "metalness": 0.0, "finish": "satin, pale even grain",
+    "pattern": {"type": "grain", "plank_width_m": 0.12, "orientation": "along_length"},
+    "typical_use": ["floor", "joinery", "stair", "interior_wall"], "aliases": ["hard_maple", "maple_wood"]
+  },
+  "oak": {
+    "name": "Oak", "category": "wood", "color": [0.72, 0.55, 0.36, 1],
+    "roughness": 0.6, "metalness": 0.0, "finish": "natural oil, pronounced grain",
+    "pattern": {"type": "grain", "plank_width_m": 0.16, "orientation": "along_length"},
+    "typical_use": ["floor", "joinery", "stair"], "aliases": ["timber", "wood", "white_oak"]
+  },
+  "teak": {
+    "name": "Teak", "category": "wood", "color": [0.58, 0.40, 0.22, 1],
+    "roughness": 0.62, "metalness": 0.0, "finish": "natural oil, golden brown",
+    "pattern": {"type": "grain", "plank_width_m": 0.14, "orientation": "along_length"},
+    "typical_use": ["floor", "exterior_screen", "joinery"], "aliases": []
+  },
+  "walnut": {
+    "name": "Walnut", "category": "wood", "color": [0.38, 0.26, 0.18, 1],
+    "roughness": 0.55, "metalness": 0.0, "finish": "satin, dark chocolate grain",
+    "pattern": {"type": "grain", "plank_width_m": 0.14, "orientation": "along_length"},
+    "typical_use": ["joinery", "feature_wall", "floor"], "aliases": ["american_walnut"]
+  },
+  "natural_stone": {
+    "name": "Natural Stone", "category": "stone", "color": [0.66, 0.60, 0.52, 1],
+    "roughness": 0.85, "metalness": 0.0, "finish": "split-face / roughly dressed",
+    "pattern": {"type": "noise", "scale": 1.6, "strength": 0.35},
+    "typical_use": ["exterior_wall", "landscape_wall"], "aliases": ["stone", "rubble_stone"]
+  },
+  "limestone": {
+    "name": "Limestone", "category": "stone", "color": [0.84, 0.80, 0.72, 1],
+    "roughness": 0.7, "metalness": 0.0, "finish": "honed, warm ivory",
+    "pattern": {"type": "noise", "scale": 3.0, "strength": 0.12},
+    "typical_use": ["floor", "exterior_wall"], "aliases": []
+  },
+  "travertine": {
+    "name": "Travertine", "category": "stone", "color": [0.85, 0.79, 0.68, 1],
+    "roughness": 0.6, "metalness": 0.0, "finish": "filled, linear pitting",
+    "pattern": {"type": "grain", "plank_width_m": 0.3, "orientation": "along_length"},
+    "typical_use": ["floor", "bath_wall"], "aliases": []
+  },
+  "concrete": {
+    "name": "Polished Concrete", "category": "mineral", "color": [0.62, 0.62, 0.60, 1],
+    "roughness": 0.5, "metalness": 0.0, "finish": "polished, subtle trowel variation",
+    "pattern": {"type": "noise", "scale": 1.2, "strength": 0.18},
+    "typical_use": ["floor", "counter"], "aliases": ["polished_concrete", "cement"]
+  },
+  "lime_plaster": {
+    "name": "Lime Plaster", "category": "plaster", "color": [0.94, 0.91, 0.85, 1],
+    "roughness": 0.9, "metalness": 0.0, "finish": "hand-troweled, soft variation",
+    "pattern": {"type": "noise", "scale": 1.8, "strength": 0.1},
+    "typical_use": ["interior_wall", "ceiling"], "aliases": ["plaster", "limewash"]
+  },
+  "terracotta": {
+    "name": "Terracotta", "category": "ceramic", "color": [0.72, 0.42, 0.28, 1],
+    "roughness": 0.8, "metalness": 0.0, "finish": "matte fired clay",
+    "pattern": {"type": "flat"}, "typical_use": ["floor", "roof_tile", "screen"], "aliases": ["clay_tile"]
+  },
+  "brick": {
+    "name": "Brick", "category": "masonry", "color": [0.62, 0.36, 0.26, 1],
+    "roughness": 0.85, "metalness": 0.0, "finish": "stretcher bond, lime mortar",
+    "pattern": {"type": "brick", "unit_m": [0.215, 0.065], "mortar_m": 0.01},
+    "typical_use": ["exterior_wall", "interior_wall"], "aliases": ["brickwork"]
+  },
+  "blackened_steel": {
+    "name": "Blackened Steel", "category": "metal", "color": [0.16, 0.16, 0.17, 1],
+    "roughness": 0.5, "metalness": 0.9, "finish": "blackened, waxed",
+    "pattern": {"type": "brushed", "orientation": "along_length"},
+    "typical_use": ["fixture", "frame", "cladding"], "aliases": ["black_steel", "mild_steel"]
+  },
+  "brass": {
+    "name": "Brass", "category": "metal", "color": [0.72, 0.55, 0.28, 1],
+    "roughness": 0.35, "metalness": 1.0, "finish": "brushed, unlacquered",
+    "pattern": {"type": "brushed", "orientation": "along_length"},
+    "typical_use": ["fixture", "trim", "hardware"], "aliases": ["aged_brass"]
+  },
+  "glass": {
+    "name": "Glass", "category": "glass", "color": [0.45, 0.68, 0.85, 0.55],
+    "roughness": 0.08, "metalness": 0.0, "finish": "clear low-iron",
+    "pattern": {"type": "flat"}, "typical_use": ["window", "door_lite", "balustrade"], "aliases": ["glazing"]
+  },
+  "courtyard_green": {
+    "name": "Courtyard Planting / Gravel", "category": "landscape", "color": [0.45, 0.62, 0.38, 1],
+    "roughness": 1.0, "metalness": 0.0, "finish": "planting and gravel (concept)",
+    "pattern": {"type": "noise", "scale": 4.0, "strength": 0.4},
+    "typical_use": ["courtyard", "landscape"], "aliases": ["garden", "planting"]
+  }
+}

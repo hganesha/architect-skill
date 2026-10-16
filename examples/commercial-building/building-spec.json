@@ -1,0 +1,94 @@
+{
+  "building": {
+    "name": "Neighbourhood Retail + Studio",
+    "style": "contemporary",
+    "units": "meters"
+  },
+  "site": {
+    "width": 20,
+    "depth": 30,
+    "entrance": "south",
+    "hemisphere": "north",
+    "setbacks": {
+      "east": 1.5,
+      "west": 1.5,
+      "north": 2.0,
+      "south": 1.0
+    }
+  },
+  "levels": [
+    {
+      "id": "ground",
+      "elevation": 0,
+      "height": 4.2
+    }
+  ],
+  "spaces": [
+    {
+      "id": "courtyard",
+      "name": "Shared Court",
+      "type": "courtyard",
+      "zone": "outdoor",
+      "target_area": 36,
+      "open_to_sky": true
+    },
+    {
+      "id": "retail",
+      "name": "Retail",
+      "type": "room",
+      "zone": "public",
+      "target_area": 70
+    },
+    {
+      "id": "cafe",
+      "name": "Caf\u00e9",
+      "type": "room",
+      "zone": "public",
+      "target_area": 45,
+      "adjacent_to": [
+        "courtyard"
+      ],
+      "materials": {
+        "floor": "terracotta"
+      }
+    },
+    {
+      "id": "studio",
+      "name": "Studio",
+      "type": "room",
+      "zone": "private",
+      "target_area": 40
+    },
+    {
+      "id": "storage",
+      "name": "Storage",
+      "type": "room",
+      "zone": "service",
+      "target_area": 20
+    },
+    {
+      "id": "kitchen",
+      "name": "Prep Kitchen",
+      "type": "kitchen",
+      "zone": "service",
+      "target_area": 18,
+      "materials": {
+        "floor": "quartz",
+        "wall": "stainless_steel"
+      }
+    },
+    {
+      "id": "wc",
+      "name": "WC Core",
+      "type": "bath",
+      "zone": "service",
+      "target_area": 10
+    }
+  ],
+  "materials": {
+    "exterior": "brick",
+    "interior": "stucco",
+    "flooring": "concrete",
+    "roof": "standing_seam_metal"
+  }
+}

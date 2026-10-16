@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DrawingSpec — request for a compiled drawing/render from a resolved model",
+  "type": "object",
+  "required": ["model", "outputs"],
+  "properties": {
+    "model": {"type": "string", "description": "path to model.json (GeometrySpec)"},
+    "outputs": {
+      "type": "array",
+      "items": {"enum": ["floor_plan", "elevation_east", "elevation_south", "section", "roof_plan",
+                          "exploded_axonometric", "room_schedule", "door_schedule", "window_schedule",
+                          "glb", "ifc", "viewer", "blender_script"]}
+    },
+    "presentation": {
+      "type": "object",
+      "properties": {
+        "style": {"enum": ["documentation", "presentation", "clay", "editorial", "daylight", "cinematic", "night"]},
+        "hand_to_product_render": {"type": "boolean", "default": false}
+      }
+    }
+  }
+}

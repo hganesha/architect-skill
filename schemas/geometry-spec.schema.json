@@ -1,0 +1,775 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GeometrySpec \u2014 resolved canonical building model (source of truth, output of solver)",
+  "type": "object",
+  "required": [
+    "meta",
+    "site",
+    "levels",
+    "spaces",
+    "walls",
+    "openings",
+    "stairs",
+    "voids",
+    "furniture",
+    "landscape",
+    "constraints"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "variant": {
+          "type": "integer"
+        },
+        "variant_name": {
+          "type": "string"
+        },
+        "source_spec": {
+          "type": "string"
+        },
+        "disclaimer": {
+          "type": "string"
+        },
+        "units": {
+          "const": "meters"
+        },
+        "schema_version": {
+          "const": "2.0"
+        }
+      },
+      "required": [
+        "name",
+        "variant",
+        "variant_name",
+        "units",
+        "schema_version",
+        "disclaimer"
+      ]
+    },
+    "site": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "number"
+        },
+        "depth": {
+          "type": "number"
+        },
+        "entrance": {
+          "type": "string"
+        },
+        "footprint": {
+          "$ref": "#/$defs/rect"
+        },
+        "buildable": {
+          "$ref": "#/$defs/rect"
+        }
+      },
+      "required": [
+        "width",
+        "depth",
+        "entrance",
+        "footprint",
+        "buildable"
+      ]
+    },
+    "levels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "elevation": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": [
+          "id",
+          "height",
+          "elevation"
+        ]
+      }
+    },
+    "spaces": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "level",
+          "type",
+          "zone",
+          "rect",
+          "area",
+          "target_area",
+          "ceiling_height",
+          "open_to_sky",
+          "double_height",
+          "auto_generated"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_-]+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "room",
+              "courtyard",
+              "terrace",
+              "stair",
+              "bath",
+              "kitchen",
+              "circulation"
+            ]
+          },
+          "zone": {
+            "enum": [
+              "public",
+              "private",
+              "service",
+              "circulation",
+              "outdoor"
+            ]
+          },
+          "level": {
+            "type": "string",
+            "default": "ground"
+          },
+          "rect": {
+            "$ref": "#/$defs/rect"
+          },
+          "polygon": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "area": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "target_area": {
+            "type": "number",
+            "description": "m\u00b2",
+            "exclusiveMinimum": 0
+          },
+          "ceiling_height": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "double_height": {
+            "type": "boolean",
+            "default": false
+          },
+          "open_to_sky": {
+            "type": "boolean",
+            "default": false
+          },
+          "skylight": {
+            "type": "boolean",
+            "default": false
+          },
+          "auto_generated": {
+            "type": "boolean"
+          },
+          "adjacent_to": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "near": {
+            "type": "string",
+            "description": "solver hint: place near this space (used by modify)"
+          },
+          "requires_exterior_wall": {
+            "type": "boolean",
+            "default": false
+          },
+          "materials": {
+            "type": "object",
+            "properties": {
+              "floor": {
+                "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object"
+                  }
+                ]
+              },
+              "wall": {
+                "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "object"
+                  }
+                ]
+              }
+            },
+            "additionalProperties": {
+              "description": "Material primitive: catalog id (see materials/catalog.json), alias, or inline override",
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object"
+                }
+              ]
+            },
+            "description": "Per-space material overrides, e.g. {\"floor\":\"marble\",\"wall\":\"wood_slat\"}"
+          },
+          "min_width": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Minimum shorter plan dimension; hard constraint."
+          },
+          "min_depth": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Minimum longer plan dimension; hard constraint."
+          },
+          "open_plan_group": {
+            "type": "string",
+            "minLength": 1
+          },
+          "max_area_deviation": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Hard maximum fractional deviation, e.g. 0.25."
+          },
+          "furniture": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "width",
+                "depth"
+              ],
+              "properties": {
+                "x": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "y": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "clearance": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "width": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "depth": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "height": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                },
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "required": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "aspect_ratio": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Courtyard width/depth ratio; overrides variant aspect."
+          }
+        }
+      }
+    },
+    "walls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "x1",
+          "y1",
+          "x2",
+          "y2",
+          "level",
+          "thickness",
+          "height",
+          "kind",
+          "spaces"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string"
+          },
+          "x1": {
+            "type": "number"
+          },
+          "y1": {
+            "type": "number"
+          },
+          "x2": {
+            "type": "number"
+          },
+          "y2": {
+            "type": "number"
+          },
+          "thickness": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "height": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "kind": {
+            "enum": [
+              "exterior",
+              "interior",
+              "courtyard"
+            ]
+          },
+          "spaces": {
+            "type": "array",
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "description": "space ids on each side; null = outside/void",
+            "minItems": 2,
+            "maxItems": 2
+          }
+        }
+      }
+    },
+    "openings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "wall_id",
+          "offset",
+          "width",
+          "height",
+          "sill",
+          "space_id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "door",
+              "window",
+              "entrance",
+              "skylight",
+              "passage"
+            ]
+          },
+          "wall_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "host wall; null only for roof skylights"
+          },
+          "space_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "offset": {
+            "type": "number",
+            "description": "m along wall from (x1,y1)"
+          },
+          "width": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "height": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "sill": {
+            "type": "number"
+          },
+          "roof_id": {
+            "type": "string"
+          },
+          "depth": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "glazed": {
+            "type": "boolean"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "skylight"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "roof_id",
+                "rect",
+                "depth"
+              ],
+              "properties": {
+                "wall_id": {
+                  "type": "null"
+                },
+                "rect": {
+                  "$ref": "#/$defs/rect"
+                }
+              }
+            },
+            "else": {
+              "properties": {
+                "wall_id": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "space_id": {
+            "type": "string"
+          },
+          "from_level": {
+            "type": "string"
+          },
+          "to_level": {
+            "type": "string"
+          },
+          "risers": {
+            "type": "integer",
+            "minimum": 4
+          },
+          "riser_mm": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "going_mm": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "run_length": {
+            "type": "number"
+          },
+          "fits": {
+            "type": "boolean"
+          },
+          "rect": {
+            "$ref": "#/$defs/rect"
+          },
+          "shaft_rect": {
+            "$ref": "#/$defs/rect"
+          },
+          "landing_rect": {
+            "$ref": "#/$defs/rect"
+          },
+          "axis": {
+            "enum": [
+              "x",
+              "y"
+            ]
+          },
+          "landing_at": {
+            "enum": [
+              "low",
+              "high"
+            ]
+          },
+          "flight_run": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "width": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "landing_depth": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": [
+          "space_id",
+          "from_level",
+          "to_level",
+          "risers",
+          "riser_mm",
+          "going_mm",
+          "rect",
+          "shaft_rect",
+          "landing_rect",
+          "fits",
+          "axis",
+          "flight_run",
+          "width",
+          "landing_depth",
+          "landing_at"
+        ]
+      }
+    },
+    "roof": {
+      "type": "object",
+      "properties": {
+        "form": {
+          "type": "string"
+        },
+        "over_open_to_sky": {
+          "type": "boolean"
+        }
+      }
+    },
+    "materials": {
+      "type": "object"
+    },
+    "voids": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "space_id",
+          "level",
+          "rect"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string"
+          },
+          "space_id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "stair",
+              "courtyard",
+              "double_height"
+            ]
+          },
+          "rect": {
+            "$ref": "#/$defs/rect"
+          }
+        }
+      }
+    },
+    "furniture": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "space_id",
+          "level",
+          "rect",
+          "height",
+          "clearance",
+          "id"
+        ],
+        "properties": {
+          "rect": {
+            "$ref": "#/$defs/rect"
+          },
+          "height": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "clearance": {
+            "type": "number",
+            "minimum": 0
+          },
+          "id": {
+            "type": "string"
+          },
+          "space_id": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "required": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "landscape": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "center",
+          "radius",
+          "height"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "const": "tree"
+          },
+          "center": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number"
+            }
+          },
+          "radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "height": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "daylight",
+              "adjacency",
+              "skylight",
+              "privacy",
+              "max_footprint",
+              "wet_grouping",
+              "wet_stacking"
+            ]
+          },
+          "target": {
+            "type": "string"
+          },
+          "spaces": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "priority": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "value": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "rect": {
+      "type": "object",
+      "required": [
+        "x",
+        "y",
+        "w",
+        "d"
+      ],
+      "properties": {
+        "x": {
+          "type": "number"
+        },
+        "y": {
+          "type": "number"
+        },
+        "w": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "d": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
